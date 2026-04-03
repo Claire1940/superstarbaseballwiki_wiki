@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guías",
-    "crafting": "Fabricación",
-    "items": "Objetos",
-    "biomes": "Biomas",
-    "building": "Construcción",
-    "support": "Soporte"
+    "guide": "Guía",
+    "codes": "Códigos",
+    "roblox": "Roblox",
+    "hitting": "Bateo",
+    "pitching": "Pitcheo",
+    "styles": "Estilos",
+    "fielding": "Fildeo",
+    "updates": "Actualizaciones"
   },
   "common": {
     "home": "Inicio",

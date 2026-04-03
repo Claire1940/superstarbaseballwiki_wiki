@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Руководство",
+    "codes": "Коды",
+    "roblox": "Roblox",
+    "hitting": "Отбивание",
+    "pitching": "Подача",
+    "styles": "Стили",
+    "fielding": "Защита",
+    "updates": "Обновления"
   },
   "common": {
     "home": "Главная",

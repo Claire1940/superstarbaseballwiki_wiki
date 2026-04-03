@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehber",
+    "codes": "Kodlar",
+    "roblox": "Roblox",
+    "hitting": "Vuruş",
+    "pitching": "Atış",
+    "styles": "Stiller",
+    "fielding": "Savunma",
+    "updates": "Güncellemeler"
   },
   "common": {
     "home": "Ana Sayfa",

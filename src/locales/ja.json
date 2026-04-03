@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "ガイド",
+    "codes": "コード",
+    "roblox": "Roblox",
+    "hitting": "打撃",
+    "pitching": "投球",
+    "styles": "スタイル",
+    "fielding": "守備",
+    "updates": "アップデート"
   },
   "common": {
     "home": "ホーム",

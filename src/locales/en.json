@@ -10,7 +10,16 @@
       "twitterDescription": "Superstar Baseball Wiki covers codes, styles, batting, pitching, controls, spins, and beginner guides for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "roblox": "Roblox",
+    "hitting": "Hitting",
+    "pitching": "Pitching",
+    "styles": "Styles",
+    "fielding": "Fielding",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -902,14 +911,34 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "guide": {
+      "title": "Superstar Baseball Guide",
+      "description": "Complete Superstar Baseball guides from beginner basics to advanced strategies. Learn batting, pitching, fielding, and competitive tips.",
+      "metaTitle": "Superstar Baseball Guide - Beginner to Advanced Tips",
+      "metaDescription": "Complete Superstar Baseball guides covering how to play, beginner tips, tutorials, and advanced strategies for Roblox players.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "Superstar Baseball guides cover everything from basic controls and roles to advanced pitching patterns, batting styles, and competitive strategies. Whether you are new or experienced, there is a guide for every skill level.",
+      "why": "Why read guides?",
+      "whySteps": {
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand roles, controls, and core mechanics to get started quickly",
+        "step2Title": "Improve Faster",
+        "step2Description": "Follow proven strategies to climb the ranks and win more matches",
+        "step3Title": "Master Advanced Play",
+        "step3Description": "Unlock advanced techniques like spin management, pitch mixing, and team coordination"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
     "codes": {
       "title": "Superstar Baseball Codes",
       "description": "All active and expired Superstar Baseball codes. Redeem codes for free Spins, Lucky Spins, and Coins.",
       "metaTitle": "Superstar Baseball Codes - Free Spins, Lucky Spins & Coins",
       "metaDescription": "Complete Superstar Baseball codes list with active codes for free Spins, Lucky Spins, and Coins. Includes how to redeem guide.",
-      "categoryLabel": "CODES",
+      "categoryLabel": "REDEEM CODES",
       "whatIs": "What are Codes?",
-      "whatIsDescription": "Superstar Baseball codes are free reward giveaways from the developers. Redeeming them gives you Spins, Lucky Spins, or Coins that help you progress faster.",
+      "whatIsDescription": "Superstar Baseball codes are free reward giveaways from the developers. Redeeming them gives you Spins, Lucky Spins, or Coins that help you progress faster without spending Robux.",
       "why": "Why redeem codes?",
       "whySteps": {
         "step1Title": "Get Free Spins",
@@ -922,52 +951,52 @@
       "featured": "Featured & Active",
       "all": "All Codes"
     },
-    "styles": {
-      "title": "Superstar Baseball Styles",
-      "description": "Superstar Baseball offensive and defensive styles tier list, rankings, and strategy guides for competitive play.",
-      "metaTitle": "Superstar Baseball Styles - Tier List & Best Picks",
-      "metaDescription": "Complete Superstar Baseball styles guide covering offensive and defensive styles, tier rankings, and which styles are best for beginners and advanced players.",
-      "categoryLabel": "STYLES",
-      "whatIs": "What are Styles?",
-      "whatIsDescription": "Styles in Superstar Baseball are abilities you roll using Spins. Offensive styles improve batting power and contact, while defensive styles enhance fielding and throwing performance.",
-      "why": "Why focus on styles?",
+    "roblox": {
+      "title": "Superstar Baseball Roblox",
+      "description": "Everything about Superstar Baseball on Roblox — hitting styles, pitching mechanics, competitive tips, and how to dominate the diamond.",
+      "metaTitle": "Superstar Baseball Roblox - Hitting, Pitching & Competitive Guide",
+      "metaDescription": "Master Superstar Baseball on Roblox with guides on offensive styles, pitching strategies, home run techniques, and competitive play tips.",
+      "categoryLabel": "ROBLOX GUIDE",
+      "whatIs": "What is Superstar Baseball Roblox?",
+      "whatIsDescription": "Superstar Baseball is a fast-paced anime-inspired 7v7 baseball game on Roblox. Players compete as batters, pitchers, and fielders using special styles and abilities unlocked through Spins.",
+      "why": "Why play Superstar Baseball on Roblox?",
       "whySteps": {
-        "step1Title": "Boost Batting Power",
-        "step1Description": "Offensive styles increase your ability to make strong contact and hit for power",
-        "step2Title": "Improve Defense",
-        "step2Description": "Defensive styles help with reaction plays, diving catches, and throwing accuracy",
-        "step3Title": "Build Your Roster",
-        "step3Description": "Combine strong offensive and defensive styles to dominate in competitive matches"
+        "step1Title": "Unique Anime Styles",
+        "step1Description": "Unlock rare offensive and defensive styles with unique visual effects and stat boosts",
+        "step2Title": "Competitive 7v7 Matches",
+        "step2Description": "Compete in ranked and casual matches against players from around the world",
+        "step3Title": "Regular Updates",
+        "step3Description": "New styles, balance changes, and seasonal content keep the game fresh year-round"
       },
       "featured": "Featured & Essential",
-      "all": "All Styles"
+      "all": "All Roblox Guides"
     },
-    "batting": {
-      "title": "Superstar Baseball Batting Guide",
-      "description": "Master Superstar Baseball batting with timing guides, pitch reading tips, and home run strategies.",
-      "metaTitle": "Superstar Baseball Batting Guide - Hit More Consistently",
-      "metaDescription": "Learn Superstar Baseball batting with swing timing guides, pitch recognition tips, contact zone strategies, and how to hit more home runs.",
-      "categoryLabel": "BATTING",
-      "whatIs": "What is Batting?",
-      "whatIsDescription": "Batting in Superstar Baseball requires reading pitch types, timing your swing mid-flight, and targeting the center-high contact zone for maximum power.",
-      "why": "Why master batting?",
+    "hitting": {
+      "title": "Superstar Baseball Hitting Guide",
+      "description": "Master Superstar Baseball hitting with timing guides, home run strategies, and offensive style tips for every skill level.",
+      "metaTitle": "Superstar Baseball Hitting Guide - Home Runs & Batting Tips",
+      "metaDescription": "Learn Superstar Baseball hitting with swing timing guides, home run techniques, offensive style rankings, and pitch recognition tips.",
+      "categoryLabel": "HITTING GUIDES",
+      "whatIs": "What is Hitting?",
+      "whatIsDescription": "Hitting in Superstar Baseball requires reading pitch types, timing your swing mid-flight, and choosing the right offensive style to maximize contact and power for home runs.",
+      "why": "Why master hitting?",
       "whySteps": {
         "step1Title": "Hit More Consistently",
         "step1Description": "Understand pitch timing to reduce strikeouts and increase contact rate",
         "step2Title": "Score More Runs",
         "step2Description": "Improve your ability to drive in runners and win close matches",
         "step3Title": "Hit Home Runs",
-        "step3Description": "Learn the center-high contact zone to maximize launch angle and distance"
+        "step3Description": "Learn the center-high contact zone and best styles to maximize launch angle and distance"
       },
       "featured": "Featured & Essential",
-      "all": "All Batting Guides"
+      "all": "All Hitting Guides"
     },
     "pitching": {
       "title": "Superstar Baseball Pitching Guide",
       "description": "Master Superstar Baseball pitching with pitch type guides, speed variation strategies, and how to fool batters.",
       "metaTitle": "Superstar Baseball Pitching Guide - Pitch Types & Strategies",
       "metaDescription": "Learn Superstar Baseball pitching with guides on Curveball, Sinker, Slider, and Fastball pitch types, plus speed variation strategies to dominate batters.",
-      "categoryLabel": "PITCHING",
+      "categoryLabel": "PITCHING GUIDES",
       "whatIs": "What is Pitching?",
       "whatIsDescription": "Pitching in Superstar Baseball involves selecting from four pitch types and varying speed and location to generate strikeouts, weak contact, and outs.",
       "why": "Why master pitching?",
@@ -982,12 +1011,32 @@
       "featured": "Featured & Essential",
       "all": "All Pitching Guides"
     },
+    "styles": {
+      "title": "Superstar Baseball Styles",
+      "description": "Superstar Baseball offensive and defensive styles tier list, rankings, and strategy guides for competitive play.",
+      "metaTitle": "Superstar Baseball Styles - Best Offensive & Defensive Styles",
+      "metaDescription": "Complete Superstar Baseball styles guide covering offensive and defensive styles, tier rankings, and which styles are best for hitting and fielding.",
+      "categoryLabel": "STYLES GUIDE",
+      "whatIs": "What are Styles?",
+      "whatIsDescription": "Styles in Superstar Baseball are abilities you roll using Spins. Offensive styles improve batting power and contact, while defensive styles enhance fielding and throwing performance.",
+      "why": "Why focus on styles?",
+      "whySteps": {
+        "step1Title": "Boost Batting Power",
+        "step1Description": "Offensive styles like Impact and Combustion increase your exit velocity and power",
+        "step2Title": "Improve Defense",
+        "step2Description": "Defensive styles help with reaction plays, diving catches, and throwing accuracy",
+        "step3Title": "Build Your Playstyle",
+        "step3Description": "Combine strong offensive and defensive styles to dominate in competitive matches"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Styles"
+    },
     "fielding": {
       "title": "Superstar Baseball Fielding Guide",
       "description": "Master Superstar Baseball fielding with catching guides, throwing strategies, and dive mechanics.",
       "metaTitle": "Superstar Baseball Fielding Guide - Catches, Throws & Dives",
       "metaDescription": "Learn Superstar Baseball fielding mechanics including dive catches, throw timing, green arrow targeting, and how to minimize fielding errors.",
-      "categoryLabel": "FIELDING",
+      "categoryLabel": "FIELDING GUIDES",
       "whatIs": "What is Fielding?",
       "whatIsDescription": "Fielding in Superstar Baseball requires catching fly balls, executing timely throws, diving for difficult catches, and coordinating with teammates to record outs.",
       "why": "Why master fielding?",
@@ -1002,25 +1051,25 @@
       "featured": "Featured & Essential",
       "all": "All Fielding Guides"
     },
-    "spins": {
-      "title": "Superstar Baseball Spins Guide",
-      "description": "Learn about Superstar Baseball Spins, Lucky Spins, and Style Spins to maximize your style progression.",
-      "metaTitle": "Superstar Baseball Spins Guide - Spins, Lucky Spins & More",
-      "metaDescription": "Complete guide to Superstar Baseball Spins including regular Spins, Lucky Spins, and Style Spins. Learn how to earn spins and maximize rare style chances.",
-      "categoryLabel": "SPINS",
-      "whatIs": "What are Spins?",
-      "whatIsDescription": "Spins are the primary resource for unlocking new styles in Superstar Baseball. Regular Spins, Lucky Spins, and Style Spins each offer different odds for obtaining rare or legendary abilities.",
-      "why": "Why focus on Spins?",
+    "updates": {
+      "title": "Superstar Baseball Updates",
+      "description": "Latest Superstar Baseball updates, patch notes, new styles, and seasonal content. Stay current with every major change.",
+      "metaTitle": "Superstar Baseball Updates - Patch Notes & New Content",
+      "metaDescription": "Track all Superstar Baseball updates including new styles, balance changes, ranked mode updates, 2v2 events, and seasonal ballpark changes.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Superstar Baseball updates bring new styles, balance adjustments, game modes, and seasonal content. Staying informed about updates helps you adapt your strategy to the current meta.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Roll New Styles",
-        "step1Description": "Use Spins to unlock offensive and defensive styles that improve your performance",
-        "step2Title": "Maximize Lucky Spins",
-        "step2Description": "Lucky Spins boost rare and legendary chances for better style outcomes",
-        "step3Title": "Earn Free Spins",
-        "step3Description": "Collect the free spin every 30 minutes and redeem codes for bonus spins"
+        "step1Title": "Stay Meta-Ready",
+        "step1Description": "New styles and balance changes shift the competitive landscape every update",
+        "step2Title": "Access New Content",
+        "step2Description": "Updates bring fresh game modes, ballparks, and limited-time events",
+        "step3Title": "Claim New Rewards",
+        "step3Description": "Major updates often come with free codes and bonus Spins for all players"
       },
-      "featured": "Featured & Essential",
-      "all": "All Spins Guides"
+      "featured": "Featured & Latest",
+      "all": "All Updates"
     }
   }
 }
