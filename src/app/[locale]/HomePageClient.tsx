@@ -8,7 +8,11 @@ import {
   Download,
   ExternalLink,
   Keyboard,
+  RotateCcw,
   Sparkles,
+  Shield,
+  Swords,
+  Target,
   TrendingUp,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -265,7 +269,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.tools.cards.map((card: any, index: number) => {
               // 映射卡片索引到 section ID
               const sectionIds = [
-                'superstar-baseball-codes', 'beginner-guide', 'controls', 'batting-guide'
+                'superstar-baseball-codes', 'beginner-guide', 'controls', 'batting-guide',
+                'pitching-guide', 'spins-guide', 'offensive-styles', 'defensive-styles'
               ]
               const sectionId = sectionIds[index]
 
@@ -517,6 +522,206 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           </div>
         </div>
       </section>
+      {/* Module 5: Superstar Baseball Pitching Guide */}
+      <section id="pitching-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Target className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballPitchingGuide.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballPitchingGuide']} locale={locale}>
+                {t.modules.superstarBaseballPitchingGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballPitchingGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballPitchingGuide.intro}
+            </p>
+          </div>
+
+          {/* Pitch Type Cards */}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {t.modules.superstarBaseballPitchingGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-bold text-base">{item.title}</h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] font-mono font-semibold whitespace-nowrap">
+                    {item.stat}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((hl: string, hi: number) => (
+                    <li key={hi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                      <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      {hl}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Superstar Baseball Spins Guide */}
+      <section id="spins-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <RotateCcw className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballSpinsGuide.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballSpinsGuide']} locale={locale}>
+                {t.modules.superstarBaseballSpinsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballSpinsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballSpinsGuide.intro}
+            </p>
+          </div>
+
+          {/* Spin Type Cards */}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {t.modules.superstarBaseballSpinsGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-bold text-base">{item.title}</h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] font-semibold whitespace-nowrap">
+                    {item.stat}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((hl: string, hi: number) => (
+                    <li key={hi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                      <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      {hl}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Superstar Baseball Offensive Styles */}
+      <section id="offensive-styles" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Swords className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballOffensiveStyles.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballOffensiveStyles']} locale={locale}>
+                {t.modules.superstarBaseballOffensiveStyles.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballOffensiveStyles.subtitle}
+            </p>
+          </div>
+
+          {/* Tier Grid */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {t.modules.superstarBaseballOffensiveStyles.tiers.map((tier: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className={`w-14 h-14 rounded-xl flex items-center justify-center text-2xl font-black border-2 flex-shrink-0 ${
+                    tier.tier === 'S' ? 'bg-amber-500/20 border-amber-500/50 text-amber-400'
+                    : tier.tier === 'A' ? 'bg-purple-500/20 border-purple-500/50 text-purple-400'
+                    : tier.tier === 'B' ? 'bg-blue-500/20 border-blue-500/50 text-blue-400'
+                    : 'bg-slate-500/20 border-slate-500/50 text-slate-400'
+                  }`}>
+                    {tier.tier}
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg">{tier.label}</h3>
+                    <span className="text-sm text-[hsl(var(--nav-theme-light))] font-mono font-semibold">{tier.chance} chance</span>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{tier.summary}</p>
+                <div>
+                  <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide">Best for</p>
+                  <ul className="space-y-1.5">
+                    {tier.bestFor.map((bf: string, bi: number) => (
+                      <li key={bi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                        <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        {bf}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Superstar Baseball Defensive Styles */}
+      <section id="defensive-styles" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Shield className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballDefensiveStyles.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballDefensiveStyles']} locale={locale}>
+                {t.modules.superstarBaseballDefensiveStyles.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballDefensiveStyles.subtitle}
+            </p>
+          </div>
+
+          {/* Tier Grid */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {t.modules.superstarBaseballDefensiveStyles.tiers.map((tier: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className={`w-14 h-14 rounded-xl flex items-center justify-center text-2xl font-black border-2 flex-shrink-0 ${
+                    tier.tier === 'S' ? 'bg-amber-500/20 border-amber-500/50 text-amber-400'
+                    : tier.tier === 'A' ? 'bg-purple-500/20 border-purple-500/50 text-purple-400'
+                    : tier.tier === 'B' ? 'bg-blue-500/20 border-blue-500/50 text-blue-400'
+                    : 'bg-slate-500/20 border-slate-500/50 text-slate-400'
+                  }`}>
+                    {tier.tier}
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg">{tier.label}</h3>
+                    <span className="text-sm text-[hsl(var(--nav-theme-light))] font-mono font-semibold">{tier.chance} chance</span>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{tier.summary}</p>
+                <div>
+                  <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide">Best for</p>
+                  <ul className="space-y-1.5">
+                    {tier.bestFor.map((bf: string, bi: number) => (
+                      <li key={bi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                        <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        {bf}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <Suspense fallback={<LoadingPlaceholder />}>
         <FAQSection

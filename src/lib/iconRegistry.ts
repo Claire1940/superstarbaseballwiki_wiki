@@ -38,6 +38,11 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // 新增图标
+  Target: LucideIcons.Target,
+  RotateCcw: LucideIcons.RotateCcw,
+  Swords: LucideIcons.Swords,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

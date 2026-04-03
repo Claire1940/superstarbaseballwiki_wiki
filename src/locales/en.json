@@ -78,6 +78,26 @@
         "icon": "TrendingUp",
         "title": "Superstar Baseball Batting Guide",
         "description": "Hit more consistently with timing and pitch reading tips"
+      },
+      {
+        "icon": "Target",
+        "title": "Superstar Baseball Pitching Guide",
+        "description": "Four pitch types, sequencing tips, and zone control"
+      },
+      {
+        "icon": "RotateCcw",
+        "title": "Superstar Baseball Spins Guide",
+        "description": "Spins, Lucky Spins, Style Spins, and Coins explained"
+      },
+      {
+        "icon": "Swords",
+        "title": "Superstar Baseball Offensive Styles",
+        "description": "Offensive style rarity tiers and roll priorities"
+      },
+      {
+        "icon": "Shield",
+        "title": "Superstar Baseball Defensive Styles",
+        "description": "Defensive style rarity tiers and upgrade ladder"
       }
     ]
   },
@@ -260,6 +280,226 @@
         {
           "title": "Build Around Your Best Hitter",
           "description": "Slot your strongest hitter into the 3rd or 4th batting position, where RBI chances show up more often."
+        }
+      ]
+    },
+    "superstarBaseballPitchingGuide": {
+      "title": "Superstar Baseball Pitching Guide",
+      "eyebrow": "Core Mechanics",
+      "subtitle": "How to Pitch Smarter in Superstar Baseball",
+      "intro": "Superstar Baseball gives pitchers four core pitch types: Curveball, Sinker, Slider, and Fastball. Good pitching is built around sequencing — use early pitches to set expectations, then break the pattern with a different speed or movement shape. Corners of the zone are especially valuable.",
+      "items": [
+        {
+          "title": "Fastball",
+          "stat": "80–100 mph",
+          "description": "The straightest and fastest option. Use it to challenge late batters, establish pace early, or set up a slower follow-up pitch.",
+          "highlights": [
+            "Best used when the batter is behind on timing",
+            "Pairs well with a later breaking ball",
+            "Most effective when located on the edges instead of center zone"
+          ]
+        },
+        {
+          "title": "Curveball",
+          "stat": "65–85 mph",
+          "description": "A slower breaking pitch that drops as it reaches the plate. Useful after faster looks, especially when the hitter is starting too early.",
+          "highlights": [
+            "Strong change-of-speed option",
+            "Useful after one or two harder pitches",
+            "Good for disrupting aggressive swing timing"
+          ]
+        },
+        {
+          "title": "Sinker",
+          "stat": "70–90 mph",
+          "description": "Drops downward and is designed to produce weaker contact. A practical pitch when you want ground-ball results instead of pure swing-and-miss.",
+          "highlights": [
+            "Designed to induce lower contact",
+            "Works well low in the zone",
+            "Useful when you want safer contact management"
+          ]
+        },
+        {
+          "title": "Slider",
+          "stat": "75–90 mph",
+          "description": "Breaks laterally with some downward action and is meant to deceive hitters. One of the best pattern-breakers once a batter starts reading straight velocity.",
+          "highlights": [
+            "Sharp break makes timing harder",
+            "Good third-pitch choice after straighter pitches",
+            "Especially useful once a batter starts sitting fastball"
+          ]
+        },
+        {
+          "title": "Sequencing Rules That Actually Work",
+          "stat": "Mix + Location + Timing",
+          "description": "The strongest sequences are built around mix, location, and timing reads. A common flow: hard pitch first, another familiar look second, then a different movement or slower ball to finish.",
+          "highlights": [
+            "Do not repeat the same pitch pattern every at-bat",
+            "Corners beat raw speed when placement is clean",
+            "If the hitter swings early, slow down; if late, speed up"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballSpinsGuide": {
+      "title": "Superstar Baseball Spins Guide",
+      "eyebrow": "Progression",
+      "subtitle": "Spins, Lucky Spins, Style Spins, and Coins in Superstar Baseball",
+      "intro": "Superstar Baseball's progression loop revolves around several reward types. Regular Spins are common, Lucky Spins are higher-value pulls, Style Spins are cosmetic-focused, and Coins support store purchases. Codes remain the fastest way to build a starter stockpile.",
+      "items": [
+        {
+          "title": "Spins",
+          "stat": "Standard pull",
+          "description": "The most common roll currency. Active codes like DEADEYE (5 Spins), 90KLIKES (2 Spins), and SUBZERO (10 Spins) give you a head start without grinding.",
+          "highlights": [
+            "Core reward type from active codes",
+            "Used far more freely than Lucky Spins",
+            "Good first resource to spend before premium rolls"
+          ]
+        },
+        {
+          "title": "Lucky Spins",
+          "stat": "Better odds",
+          "description": "Lucky Spins are the higher-value version of regular Spins, widely recommended for rarer pulls. Codes like SOFTBALL (5 Lucky Spins) and TUTORIAL (3 Lucky Spins) deliver them directly.",
+          "highlights": [
+            "Higher odds for rarer styles",
+            "Best saved for stronger upgrade attempts",
+            "Often the most valuable code reward"
+          ]
+        },
+        {
+          "title": "Style Spins",
+          "stat": "Cosmetic-focused",
+          "description": "Style Spins are used for cosmetic-style rewards. Codes like 40KLIKES (2 Style Spins) and SLUGGER (5 Style Spins) give you access without spending coins.",
+          "highlights": [
+            "Cosmetic-focused reward path",
+            "Useful for appearance customization",
+            "Less urgent than Lucky Spins for progression-first players"
+          ]
+        },
+        {
+          "title": "Coins",
+          "stat": "Store currency",
+          "description": "Coins are the direct purchase currency used in the in-game store. The code SUPERSTAR gives 100 Coins — a solid early boost for store purchases.",
+          "highlights": [
+            "Used for purchases rather than rolling",
+            "Helpful early when combined with code rewards",
+            "Best treated as support currency beside spins"
+          ]
+        },
+        {
+          "title": "Best Early-Game Spin Plan",
+          "stat": "Codes first",
+          "description": "For a fresh account, the strongest route is to redeem all active codes first, spend standard Spins before premium ones, and hold Lucky Spins for your more important upgrade windows.",
+          "highlights": [
+            "Redeem codes before grinding matches",
+            "Standard Spins are easiest to spend first",
+            "Lucky Spins are the most strategic resource to save"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballOffensiveStyles": {
+      "title": "Superstar Baseball Offensive Style Rarity",
+      "eyebrow": "Style Rarity",
+      "subtitle": "Offensive Style Rarity and Roll Priorities in Superstar Baseball",
+      "intro": "Players roll for offensive style slots using Spins, and reliable guides agree on four rarity bands: Legendary, Epic, Rare, and Uncommon. Lucky Spins improve access to rarer outcomes. The rarity ladder tells players what to chase, what to keep, and what to replace first.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Legendary",
+          "chance": "0.5%",
+          "summary": "Top-rarity offensive rolls. The hardest band to land and the clearest long-term chase target.",
+          "bestFor": [
+            "Premium roll sessions",
+            "Lucky Spin attempts",
+            "Long-term offensive upgrades"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Epic",
+          "chance": "2%",
+          "summary": "High-rarity offensive rolls with much better accessibility than Legendary while still rare enough to value heavily.",
+          "bestFor": [
+            "Strong mid-to-late progression builds",
+            "Stopping points before chasing Legendary",
+            "Efficient use of saved spins"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Rare",
+          "chance": "35%",
+          "summary": "The practical middle band. Rare rolls are realistic progression pieces and a common place to stabilize before pushing higher.",
+          "bestFor": [
+            "Early account upgrades",
+            "Playable starting offensive setups",
+            "Bridge tier before premium chasing"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Uncommon",
+          "chance": "62.5%",
+          "summary": "The most frequent outcome. Useful for getting started, but usually the first band players look to improve from with later spins.",
+          "bestFor": [
+            "Fresh accounts",
+            "First few matches",
+            "Replace-first offensive slot targets"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballDefensiveStyles": {
+      "title": "Superstar Baseball Defensive Style Rarity",
+      "eyebrow": "Style Rarity",
+      "subtitle": "Defensive Style Rarity and Upgrade Ladder in Superstar Baseball",
+      "intro": "Defensive styles use the same rarity structure as offensive ones. New players often understand batting first, but defensive value becomes more important as matches tighten up and clean plays start deciding outcomes. The rarity ladder gives players an immediate answer to what counts as a keeper roll.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Legendary",
+          "chance": "0.5%",
+          "summary": "The rarest defensive result band. These are the most desirable long-term defensive outcomes and the hardest to obtain.",
+          "bestFor": [
+            "Endgame defensive keeps",
+            "Lucky Spin chase sessions",
+            "Long-term roster stability"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Epic",
+          "chance": "2%",
+          "summary": "Premium defensive rolls that are still rare, but realistic enough to become strong keepers for many players.",
+          "bestFor": [
+            "High-value defensive builds",
+            "Stopping before deeper rerolls",
+            "Reliable upgrade checkpoints"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Rare",
+          "chance": "35%",
+          "summary": "A strong practical tier for players who want better defense without sinking every premium roll into chasing the top band.",
+          "bestFor": [
+            "Solid day-to-day defense",
+            "Early-to-mid progression",
+            "Balanced upgrade plans"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Uncommon",
+          "chance": "62.5%",
+          "summary": "The most common defensive outcome. Fine for starting out, but usually the first tier players move on from as more spins arrive.",
+          "bestFor": [
+            "Starter defensive slots",
+            "Learning roles and positioning",
+            "First reroll targets"
+          ]
         }
       ]
     }
