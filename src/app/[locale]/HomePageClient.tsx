@@ -310,7 +310,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Video Section */}
       <section className="px-4 py-12">
-        <div className="scroll-reveal container mx-auto">
+        <div className="scroll-reveal container mx-auto max-w-4xl">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
               videoId="Y8l3biRbmGA"
@@ -329,7 +329,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               {t.tools.title}{' '}
