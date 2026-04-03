@@ -1,29 +1,29 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Superstar Baseball Wiki - Codes, Styles & 操作方法",
+      "description": "Superstar Baseball Wikiでは、Robloxプレイヤーがより早く上達するためのCodes、Styles、バッティング、ピッチング、操作方法、Spins、初心者向けガイドを網羅しています。",
+      "keywords": "Superstar Baseball, Roblox, Codes, Styles, バッティング, ピッチング, 操作方法, Spins, ガイド",
+      "ogTitle": "Superstar Baseball Wiki - Codes, Styles & 操作方法",
+      "ogDescription": "Superstar Baseball Wikiでは、Robloxプレイヤーがより早く上達するためのCodes、Styles、バッティング、ピッチング、操作方法、Spins、初心者向けガイドを網羅しています。",
+      "twitterTitle": "Superstar Baseball Wiki - Codes, Styles & 操作方法",
+      "twitterDescription": "Superstar Baseball Wikiでは、RobloxプレイヤーのためのCodes、Styles、バッティング、ピッチング、操作方法、Spins、初心者向けガイドを網羅しています。"
     }
   },
   "nav": {
     "guide": "ガイド",
-    "codes": "コード",
+    "codes": "Codes",
     "roblox": "Roblox",
-    "hitting": "打撃",
-    "pitching": "投球",
-    "styles": "スタイル",
-    "fielding": "守備",
+    "hitting": "ヒッティング",
+    "pitching": "ピッチング",
+    "styles": "Styles",
+    "fielding": "フィールディング",
     "updates": "アップデート"
   },
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
+    "playNow": "Robloxでプレイ",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -35,721 +35,843 @@
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "アニメ風 7v7 野球",
+    "title": "Superstar Baseball Wiki",
+    "description": "アニメ風のアビリティ、バッティング、ピッチング、フィールディング、Spins、そして競争力のある7v7マッチを楽しめる、テンポの速いRoblox野球ゲーム。Codes、Stylesガイド、操作方法、初心者向けのヒントをすべて1か所でチェック。",
+    "getFreeCodesCTA": "無料のCodesを入手",
+    "playOnSteamCTA": "Robloxでプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "44.7M+",
+        "label": "総訪問数"
       },
       "stat2": {
-        "value": "1,986",
+        "value": "19.8K",
         "label": "最大同時接続数"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "103.9K",
+        "label": "お気に入り数"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "2日前",
+        "label": "最終更新"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Superstar Baseball ゲームプレイ",
+    "description": "Robloxでテンポの速い7v7アニメ風野球を体験しよう。Stylesをロールし、バッティングとピッチングをマスターして、チャンピオンを目指しましょう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "Superstar Baseball",
+    "titleHighlight": "Wiki",
+    "subtitle": "Codesの検索、操作方法の習得、バッティングのマスターなど、Superstar Baseballの旅を始めるために必要なすべてが揃っています",
     "cards": [
       {
+        "icon": "Download",
+        "title": "Superstar Baseball Codes",
+        "description": "無料のSpins、Lucky Spins、コイン用の有効なCodes"
+      },
+      {
         "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
+        "title": "Superstar Baseball 初心者ガイド",
+        "description": "最初のステップ、役割、Spinsの確率、試合の基本"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
-      },
-      {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
+        "icon": "Keyboard",
+        "title": "Superstar Baseball 操作方法",
+        "description": "バッティング、ピッチング、フィールディングのキーバインドと入力"
       },
       {
         "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
+        "title": "Superstar Baseball バッティングガイド",
+        "description": "タイミングと球種予測のヒントで、より安定してヒットを打つ"
       },
       {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
+        "icon": "Target",
+        "title": "Superstar Baseball ピッチングガイド",
+        "description": "4つの球種、配球のヒント、ゾーンコントロール"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
+        "icon": "RotateCcw",
+        "title": "Superstar Baseball Spinsガイド",
+        "description": "Spins、Lucky Spins、Style Spins、コインの解説"
       },
       {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
-      },
-      {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
+        "icon": "Swords",
+        "title": "Superstar Baseball 攻撃Styles",
+        "description": "攻撃Stylesのレアリティティアとロールの優先順位"
       },
       {
         "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "Superstar Baseball 守備Styles",
+        "description": "守備Stylesのレアリティティアとアップグレードの段階"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Superstar Baseball ホームランの打ち方",
+        "description": "ホームランのためのタイミングの合図、ゾーン選択、スイングの規律"
+      },
+      {
+        "icon": "Hand",
+        "title": "Superstar Baseball フィールディングガイド",
+        "description": "ダイブの仕組み、送球精度、チーム守備の基本"
+      },
+      {
+        "icon": "Activity",
+        "title": "Superstar Baseball おすすめ球種",
+        "description": "ストレート、スライダー、シンカー、カーブを速度と変化で比較"
+      },
+      {
+        "icon": "Gift",
+        "title": "Superstar Baseball Spinsの入手方法",
+        "description": "Codes、無料Spinsタイマー、試合報酬、マイルストーン達成方法"
+      },
+      {
+        "icon": "Star",
+        "title": "Superstar Baseball コインガイド",
+        "description": "序盤の進行のためにコインを効率的に稼ぎ、使う方法"
+      },
+      {
+        "icon": "Users",
+        "title": "Superstar Baseball 役割ガイド",
+        "description": "Batter、Pitcher、Fielderの役割解説"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Superstar Baseball 7v7マッチガイド",
+        "description": "7v7での試合の流れ、チームワーク、勝利の基本"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Superstar Baseball ソロキューのコツ",
+        "description": "ソロでの習慣と、貢献するための公開ロビーでの戦略"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
-      "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
-      "steps": [
+    "superstarBaseballCodes": {
+      "title": "Superstar Baseball Codes",
+      "eyebrow": "無料報酬",
+      "subtitle": "Spins、Lucky Spins、コインを受け取ろう",
+      "intro": "CodesはSuperstar Baseballで追加のリソースを入手する最速の方法です。引き換えはゲーム内の設定メニューから行います。",
+      "activeCodes": [
         {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
+          "code": "DEADEYE",
+          "reward": "5 Spins",
+          "category": "Spin報酬"
         },
         {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
+          "code": "90KLIKES",
+          "reward": "2 Spins",
+          "category": "Spin報酬"
         },
         {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
+          "code": "SKYBOUND",
+          "reward": "5 Spins",
+          "category": "Spin報酬"
         },
         {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
+          "code": "TUTORIAL",
+          "reward": "3 Lucky Spins",
+          "category": "Lucky Spin報酬"
+        },
+        {
+          "code": "SUPERSTAR",
+          "reward": "100コイン",
+          "category": "コイン報酬"
         }
       ],
+      "expiredCodes": [
+        {
+          "code": "40KLIKES"
+        },
+        {
+          "code": "HARVEST"
+        },
+        {
+          "code": "FISHERMAN"
+        },
+        {
+          "code": "MEDITATION"
+        },
+        {
+          "code": "OVERCHARGE"
+        },
+        {
+          "code": "TRAINING"
+        }
+      ],
+      "redeemTitle": "Superstar Baseball Codesの引き換え方法",
+      "redeemSteps": [
+        "RobloxでSuperstar Baseballを開きます。",
+        "設定メニューをタップします。",
+        "設定パネルの一番下までスクロールします。",
+        "引き換えボックスにコードを貼り付けます。",
+        "Enterキーを押して報酬を受け取ります。"
+      ],
+      "activeLabel": "有効",
+      "expiredLabel": "期限切れ",
+      "expiredSectionTitle": "期限切れのSuperstar Baseball Codes"
+    },
+    "superstarBaseballBeginnerGuide": {
+      "title": "Superstar Baseball初心者ガイド",
+      "eyebrow": "スターターガイド",
+      "subtitle": "Superstar Baseballの始め方",
+      "intro": "Superstar BaseballはMetavisionによるRobloxのスポーツゲームです。新規プレイヤーは、最適化に集中する前に、Stylesを回し、フィールド上の3つの主要な役割を学び、ピッチミックスに慣れることから始めます。",
+      "steps": [
+        {
+          "title": "ゲームに入る",
+          "description": "RobloxでSuperstar Baseballを検索してサーバーに参加します。序盤は、自分のStyles設定と基本的な試合の流れを学ぶことが中心となります。"
+        },
+        {
+          "title": "初期Spinsを使う",
+          "description": "新規プレイヤーは4つの無料Spinsから始めます。これらを使用して、攻撃的なStyleと守備的なStyleを1つずつ引きます。"
+        },
+        {
+          "title": "Spinの確率を理解する",
+          "description": "30分ごとに無料のSpinが1つ付与されます。報告されているStyleの確率は、レジェンダリー 0.5%、エピック 2%、レア 35%、アンコモン 62.5%です。"
+        },
+        {
+          "title": "3つの役割を学ぶ",
+          "description": "Fielderはボールをキャッチしてアウトを取るために投げます。Pitcherは空振りを誘うか、弱い当たりを打たせようとします。Batterは内野を越えてランナーをホームに帰すことを目指します。"
+        },
+        {
+          "title": "主な球種を知る",
+          "description": "カーブは約65-85 mph、シンカーは約70-90 mph、スライダーは約75-90 mph、ファストボールは約80-100 mphです。"
+        },
+        {
+          "title": "序盤はシンプルな勝利に集中する",
+          "description": "まずはスイングのタイミング、球速の認識、Fielderとしての正確な送球を学び、より強力なロースターのアップグレードのためにリソースを節約することから始めましょう。"
+        }
+      ],
+      "quickTipsTitle": "Superstar Baseballクイックヒント",
       "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
+        "無料のSpinは30分ごとにリセットされます。忘れずに回収しましょう。",
+        "専門化する前に、まずはどの役割でもいいので基本を学びましょう。",
+        "ファストボールは最も速く到達するため、思っているよりも早く反応してください。",
+        "Lucky Spinsは、より高レアリティのStyleを狙うために取っておきましょう。"
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
+    "superstarBaseballControls": {
+      "title": "Superstar Baseball PC操作方法",
+      "eyebrow": "PC操作",
+      "subtitle": "Superstar Baseball操作クイックリファレンス",
+      "intro": "Superstar Baseballの操作セットはコンパクトですが、役割ごとに使い方が異なります。Batterには素早い反応タイミング、Pitcherには素早い球種選択、Fielderには正確なダイブと送球が求められます。",
+      "controls": [
         {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
+          "action": "スイング",
+          "role": "Batter",
+          "input": "マウス左クリック",
+          "description": "打席でボールを打つために使用します。"
         },
         {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
+          "action": "カーブを選択",
+          "role": "Pitcher",
+          "input": "1",
+          "description": "現在の球種としてカーブを選択します。"
         },
         {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
+          "action": "シンカーを選択",
+          "role": "Pitcher",
+          "input": "2",
+          "description": "現在の球種としてシンカーを選択します。"
         },
         {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
-        }
-      ],
-      "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
-      "items": [
-        {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
+          "action": "スライダーを選択",
+          "role": "Pitcher",
+          "input": "3",
+          "description": "現在の球種としてスライダーを選択します。"
         },
         {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
+          "action": "ファストボールを選択",
+          "role": "Pitcher",
+          "input": "4",
+          "description": "現在の球種としてファストボールを選択します。"
         },
         {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
+          "action": "ダイブ",
+          "role": "Fielder",
+          "input": "E",
+          "description": "キャッチを確実にし、ヒットを防ぐためにダイブします。"
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
+          "action": "ボールを投げる",
+          "role": "Fielder",
+          "input": "マウス左クリック",
+          "description": "ボールを捕球した後に投げ、緑色の矢印をターゲットのチームメイトに合わせます。"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
-        {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
-        },
-        {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
-        },
-        {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
-        },
-        {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
-        }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
-        }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
-      "sections": [
-        {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
-            }
-          ]
-        },
-        {
-          "name": "クラフトと召喚",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
-            },
-            {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
-            }
-          ]
-        },
-        {
-          "name": "移動とユーティリティ",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
-            },
-            {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
-            },
-            {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
-            },
-            {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
-            }
-          ]
-        },
-        {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
-            {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
-            },
-            {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
-            }
-          ]
-        },
-        {
-          "name": "成長と農業",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
-            },
-            {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
-            },
-            {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
-        },
-        {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
-        },
-        {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
-        },
-        {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
-        },
-        {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
-        {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
-        },
-        {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
-        },
-        {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
+    "superstarBaseballBattingGuide": {
+      "title": "Superstar Baseball バッティングガイド",
+      "eyebrow": "打撃のヒント",
+      "subtitle": "打席でより安定して打つために",
+      "intro": "Superstar Baseball のバッティングは、ボールを早く見極め、スイングを投球軌道に合わせることが基本です。優れた Batter は球種を特定し、絶好球を待ち、悪球打ちを避けます。",
       "steps": [
         {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
+          "title": "飛行中のタイミングを合わせる",
+          "description": "ボールがプレートの約半分まで来た時にスイングを開始します。スイングが早すぎるとファウルになりやすく、遅すぎると空振りにつながります。"
         },
         {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
+          "title": "早めに球種を見極める",
+          "description": "ファストボールは直線的に進み、素早い反応が必要です。カーブは後から変化するため、より忍耐が必要です。オフスピードピッチは最初は速く見えますが、到達は遅れます。"
         },
         {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
+          "title": "パワーのためにセンター高めを狙う",
+          "description": "強い打ち出し角度とホームラン性の当たりを狙うには、センター高めのゾーンが最も有効なターゲットです。ゴロが続く場合は、通常スイングが遅いか、コンタクトポイントが低すぎることが原因です。"
         },
         {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
+          "title": "すべてを振らない",
+          "description": "選球眼が重要です。悪い球を見送ることでフォアボールで出塁でき、Pitcher に打ちやすい球を投げさせることができます。"
         },
         {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "title": "最強の Batter を中心に構築する",
+          "description": "最も強力な Batter を3番か4番の打順に配置しましょう。そこでは打点のチャンスがより頻繁に巡ってきます。"
+        }
+      ]
+    },
+    "superstarBaseballPitchingGuide": {
+      "title": "Superstar Baseball ピッチングガイド",
+      "eyebrow": "基本メカニクス",
+      "subtitle": "Superstar Baseball でより賢く投球する方法",
+      "intro": "Superstar Baseball では、Pitcher にはカーブ、シンカー、スライダー、ファストボールの4つの基本球種があります。優れたピッチングは配球（シーケンシング）が鍵です。序盤の投球で予測を立てさせ、異なる速度や変化でパターンを崩しましょう。ストライクゾーンの四隅は特に有効です。",
+      "items": [
+        {
+          "title": "Fastball",
+          "stat": "80–100 mph",
+          "description": "最も直線的で速い選択肢。タイミングが遅れている Batter への勝負、序盤のペース作り、または遅い変化球への布石として使用します。",
+          "highlights": [
+            "Batter のタイミングが遅れている時に最適",
+            "後から投げる変化球との相性が抜群",
+            "中央ではなくエッジ（端）に配置した時に最も効果的"
+          ]
+        },
+        {
+          "title": "Curveball",
+          "stat": "65–85 mph",
+          "description": "プレートに到達する際に沈む、より遅い変化球。速い球を見せた後、特に打者が早めに始動している場合に有効です。",
+          "highlights": [
+            "強力な緩急の選択肢",
+            "1、2球の速い球の後に効果的",
+            "積極的なスイングタイミングを乱すのに最適"
+          ]
+        },
+        {
+          "title": "Sinker",
+          "stat": "70–90 mph",
+          "description": "下方向に沈み、弱い当たりを誘うように設計されています。空振りではなく、ゴロの結果を求めている場合に実用的な球種です。",
+          "highlights": [
+            "低い位置でのコンタクトを誘発するように設計",
+            "ゾーンの低めで効果を発揮",
+            "安全に打たせて取りたい時に便利"
+          ]
+        },
+        {
+          "title": "Slider",
+          "stat": "75–90 mph",
+          "description": "横方向に変化しながら少し沈み、打者を惑わします。Batter が直線的な速さに慣れ始めた時の、最高のパターンブレイカーの一つです。",
+          "highlights": [
+            "鋭い変化でタイミングを合わせにくくする",
+            "直線的な球種の後の3球目として優れた選択肢",
+            "Batter がファストボールを待ち始めた時に特に有効"
+          ]
+        },
+        {
+          "title": "実際に効果的な配球ルール",
+          "stat": "ミックス + ロケーション + タイミング",
+          "description": "最強の配球は、ミックス、ロケーション、タイミングの読みから構築されます。一般的な流れ：最初に速い球、次に慣れた球、最後に異なる動きや遅い球で仕留めます。",
+          "highlights": [
+            "打席ごとに同じ投球パターンを繰り返さない",
+            "正確な配置ができれば、四隅は生の速さに勝る",
+            "打者のスイングが早ければ遅くし、遅ければ速くする"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballSpinsGuide": {
+      "title": "Superstar Baseball Spins ガイド",
+      "eyebrow": "進行状況",
+      "subtitle": "Superstar Baseball における Spins、Lucky Spins、Style Spins、およびコイン",
+      "intro": "Superstar Baseball の進行ループは、いくつかの報酬タイプを中心に展開します。通常の Spins は一般的で、Lucky Spins はより価値の高いガチャ、Style Spins は外見重視、そしてコインはショップでの購入に使用します。Codes は、初期の備蓄を築くための最も速い方法です。",
+      "items": [
+        {
+          "title": "Spins",
+          "stat": "標準ガチャ",
+          "description": "最も一般的なガチャ通貨。DEADEYE (5 Spins)、90KLIKES (2 Spins)、SUBZERO (10 Spins) などの有効な Codes を使えば、やり込むことなくスタートダッシュを切れます。",
+          "highlights": [
+            "有効な Codes から得られる主要な報酬タイプ",
+            "Lucky Spins よりもはるかに自由に使用される",
+            "プレミアムなガチャの前に使うべき最初の型"
+          ]
+        },
+        {
+          "title": "Lucky Spins",
+          "stat": "より良い確率",
+          "description": "Lucky Spins は通常の Spins よりも価値の高いバージョンで、レアなアイテムを引くために広く推奨されます。SOFTBALL (5 Lucky Spins) や TUTORIAL (3 Lucky Spins) などの Codes で直接入手可能です。",
+          "highlights": [
+            "レアな Styles への高い当選確率",
+            "重要なアップグレードの試みのために取っておくのがベスト",
+            "多くの場合、最も価値のある Code 報酬"
+          ]
+        },
+        {
+          "title": "Style Spins",
+          "stat": "外見重視",
+          "description": "Style Spins は外見報酬に使用されます。40KLIKES (2 Style Spins) や SLUGGER (5 Style Spins) などの Codes を使えば、コインを消費せずに入手できます。",
+          "highlights": [
+            "外見に特化した報酬パス",
+            "見た目のカスタマイズに便利",
+            "進行を優先するプレイヤーにとっては Lucky Spins ほど緊急性は高くない"
+          ]
+        },
+        {
+          "title": "Coins",
+          "stat": "ストア通貨",
+          "description": "コインはゲーム内ストアで使用される直接購入通貨です。Code 「SUPERSTAR」で100コインを獲得でき、序盤のストア購入において確かなブーストとなります。",
+          "highlights": [
+            "ガチャではなく購入に使用される",
+            "Code 報酬と組み合わせることで序盤に役立つ",
+            "Spins と並ぶ補助的な通貨として扱うのがベスト"
+          ]
+        },
+        {
+          "title": "序盤の最適な Spin 計画",
+          "stat": "まずは Codes",
+          "description": "新規アカウントの場合、最強のルートはまず全ての有効な Codes を引き換え、プレミアムなものの前に標準の Spins を使い、より重要なアップグレードのタイミングまで Lucky Spins を温存することです。",
+          "highlights": [
+            "試合をやり込む前に Codes を引き換える",
+            "標準の Spins は最初に使いやすい",
+            "Lucky Spins は最も戦略的に温存すべきリソース"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballOffensiveStyles": {
+      "title": "Superstar Baseball オフェンス Styles レアリティ",
+      "eyebrow": "Styles レアリティ",
+      "subtitle": "Superstar Baseball におけるオフェンス Styles のレアリティとロールの優先順位",
+      "intro": "プレイヤーは Spins を使用してオフェンス Styles スロットのロールを行い、信頼できるガイドでは Legendary、Epic、Rare、Uncommon の4つのレアリティ帯があることで一致しています。Lucky Spins を使用すると、よりレアな結果が得られやすくなります。レアリティの階層は、プレイヤーが何を追い求め、何を保持し、何を最初に交換すべきかを示しています。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Legendary",
+          "chance": "0.5%",
+          "summary": "最高レアリティのオフェンスロール。最も入手が困難で、長期的な目標となる明確なターゲットです。",
+          "bestFor": [
+            "プレミアムロールセッション",
+            "Lucky Spin の試行",
+            "長期的なオフェンスのアップグレード"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Epic",
+          "chance": "2%",
+          "summary": "高レアリティのオフェンスロール。Legendary よりも入手しやすく、かつ十分に貴重で価値の高いものです。",
+          "bestFor": [
+            "中盤から終盤にかけての強力なビルド",
+            "Legendary を狙う前の一時的な到達点",
+            "貯めた Spins の効率的な使用"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Rare",
+          "chance": "35%",
+          "summary": "実用的な中間層。Rare ロールは現実的な進行要素であり、より高みを目指す前に態勢を整える一般的なポイントです。",
+          "bestFor": [
+            "アカウント初期のアップグレード",
+            "実戦的な初期オフェンスセットアップ",
+            "プレミアムを狙う前の架け橋となるティア"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Uncommon",
+          "chance": "62.5%",
+          "summary": "最も頻繁に出現する結果。序盤には役立ちますが、通常は後の Spins で最初に改善を検討する層です。",
+          "bestFor": [
+            "新規アカウント",
+            "最初の数試合",
+            "最初に交換すべきオフェンススロットのターゲット"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballDefensiveStyles": {
+      "title": "Superstar Baseball ディフェンス Styles レアリティ",
+      "eyebrow": "Styles レアリティ",
+      "subtitle": "Superstar Baseball におけるディフェンス Styles のレアリティとアップグレードの階層",
+      "intro": "ディフェンス Styles はオフェンスと同じレアリティ構造を採用しています。初心者はまずバッティングを理解しがちですが、試合が接戦になり、クリーンなプレーが勝敗を分け始めると、ディフェンスの価値がより重要になります。レアリティの階層は、どのロールをキープすべきかという問いに即座に答えてくれます。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Legendary",
+          "chance": "0.5%",
+          "summary": "最もレアなディフェンス結果の層。これらは長期的に最も望ましいディフェンスの結果であり、入手が最も困難です。",
+          "bestFor": [
+            "エンドゲーム用のディフェンスキープ",
+            "Lucky Spin での獲得狙い",
+            "長期的なロースターの安定"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Epic",
+          "chance": "2%",
+          "summary": "プレミアムなディフェンスロール。依然としてレアですが、多くのプレイヤーにとって強力なキープ対象となる現実的なラインです。",
+          "bestFor": [
+            "価値の高いディフェンスビルド",
+            "深追いする前のストップポイント",
+            "信頼できるアップグレードのチェックポイント"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Rare",
+          "chance": "35%",
+          "summary": "プレミアムなロールをすべて上位層の獲得に費やすことなく、より良いディフェンスを求めるプレイヤーにとって強力で実用的なティアです。",
+          "bestFor": [
+            "堅実な日常のディフェンス",
+            "序盤から中盤の進行",
+            "バランスの取れたアップグレード計画"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Uncommon",
+          "chance": "62.5%",
+          "summary": "最も一般的なディフェンスの結果。開始直後には問題ありませんが、通常は Spins が増えるにつれて最初に卒業するティアです。",
+          "bestFor": [
+            "スターター用のディフェンススロット",
+            "役割とポジショニングの学習",
+            "最初の再ロール対象"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballHowToHitHomeRuns": {
+      "title": "Superstar Baseball ホームランの打ち方",
+      "eyebrow": "バッティングガイド",
+      "subtitle": "ホームランはまずタイミング、次にゾーンの選択から生まれます。このモジュールでは、クリーンなコンタクトを長打に変えるための、再現可能な習慣に焦点を当てます。",
+      "intro": "Superstar Baseball では、パニックになってクリックするよりも、規律あるスイングが報われます。ガイドに共通する最も明確なパターンは、打てる球を待ち、タイミングよくコンタクトし、より良い打ち出し角度を得るためにゾーンの中央高めを狙うことです。",
+      "steps": [
+        {
+          "title": "Pitcher の手から離れるボールを注視する",
+          "description": "土壇場で反応するのではなく、早い段階で球筋を追います。Pitcher の手から離れるボールを見極めることがバッティング向上の第一歩であり、スピードとコースを判断する時間を稼ぐことができます。"
+        },
+        {
+          "title": "すべての球を振らない",
+          "description": "ボール球を見送り、Pitcher をゾーン内に投げさせます。フォアボールでも出塁でき、忍耐強い打席は、悪い球を追いかけるよりもホームランのチャンスを広げます。"
+        },
+        {
+          "title": "ボールが中間地点に来たあたりでスイングを開始する",
+          "description": "タイミングは、弱い当たりと強い当たりの主な分かれ目です。ボールがホームプレートまでの中間地点に来たときにスイングを開始しましょう。早すぎるとファウルになり、遅すぎると空振りになります。"
+        },
+        {
+          "title": "ストライクゾーンの中央高めを狙う",
+          "description": "最も直接的なホームランのコツは、中央高めのゾーンに来る球を打つことです。その位置でのコンタクトは、低めや外角よりも優れた打ち出し角度を生みます。"
+        },
+        {
+          "title": "ゴロやファウルをフィードバックとして活用する",
+          "description": "ゴロばかり打っている場合は、コンタクトポイントが低すぎるか、スイングが遅すぎます。一貫してファウルになる場合は、スイングが早すぎる可能性があります。調整して修正しましょう。"
+        },
+        {
+          "title": "タイミングが自然に感じられるまでカジュアルマッチで練習する",
+          "description": "スイングの許容範囲は狭いため、反復練習が重要です。カジュアルゲームは、本格的な対戦の前に、球速の感覚や自分のスイングのリズムを養うのに最適な場所です。"
+        }
+      ]
+    },
+    "superstarBaseballFieldingGuide": {
+      "title": "Superstar Baseball フィールディングガイド",
+      "eyebrow": "守備ガイド",
+      "subtitle": "Superstar Baseball におけるフィールディングは、的確な反応、適切なタイミングでのダイブ、そして正確な送球が重要です。堅実な守備は、当たり前の打球を確実にアウトに変えます。",
+      "intro": "フィールディングの基本サイクルは明確です。ボールを捕り、必要に応じてダイブし、味方に正確に送球することです。7対7の試合では、プレイヤー同士が連携し、互いの守備範囲をカバーし合うことで、さらに守備力が高まります。",
+      "steps": [
+        {
+          "title": "Fielder としての役割を知る",
+          "description": "Fielder の役割はシンプルです。ボールを捕球し、正確な送球を行って相手をアウトにすることです。他のすべてのプレーは、この基本サイクルの積み重ねです。"
+        },
+        {
+          "title": "ボールにあと一歩届かない時はダイブを使う",
+          "description": "PC版では、デフォルトのダイブキーはEです。通常の移動では届かないボール、特にライナー性の打球や反応が遅れてギリギリ届くかどうかの場面のために温存しておきましょう。"
+        },
+        {
+          "title": "送球を急ぐ前に確実に捕球する",
+          "description": "ボールを確保したら、ためらわずにすぐ正確な送球動作に移りましょう。捕球から送球までの一連の流れが素早くコントロールされていると、守備の信頼性が高まります。"
+        },
+        {
+          "title": "緑の矢印で送球を狙う",
+          "description": "ボールを処理した後、左クリックで送球し、緑の矢印を使ってターゲットとなる味方に合わせます。正確なエイムは、Superstar Baseball において最も明確に定義されている守備メカニクスの1つです。"
+        },
+        {
+          "title": "7対7の試合でチーム守備を行う",
+          "description": "Superstar Baseball は7対7の試合を中心に構成されているため、守備は全員の共同責任です。コミュニケーションと連携したカバーリングにより、打球を安定してアウトに変換しやすくなります。"
+        },
+        {
+          "title": "派手なプレーよりも守備の安定性を高める",
+          "description": "守備力の向上は、安定した勝利に直結します。確実な捕球、適切な送球判断、そして焦りによるミスの少なさが、ハイライトに残るような派手なプレーよりも重要です。"
+        }
+      ]
+    },
+    "superstarBaseballBestPitchTypes": {
+      "title": "Superstar Baseball おすすめの球種",
+      "eyebrow": "ピッチングガイド",
+      "subtitle": "Superstar Baseball には4つの基本球種があります。各球種には異なる速度帯と変化の特性があり、最適な選択は Batter やカウントによって異なります。",
+      "intro": "Superstar Baseball における球種の比較で最も役立つのは、速度、変化、そしてどのような打球を誘発しやすいかという点です。ファストボールは速度で打者にプレッシャーを与え、変化球やシンカー系の球種は、打ち気をそらしたり弱い当たりを誘ったりするのに適しています。",
+      "tableHeaders": {
+        "pitch": "球種",
+        "speedRange": "球速帯",
+        "movement": "変化",
+        "bestFor": "最適な場面",
+        "difficulty": "難易度"
+      },
+      "pitchRows": [
+        {
+          "pitch": "ファストボール",
+          "speedRange": "80–100 mph",
+          "movement": "直球・球速重視",
+          "bestFor": "純粋な速さで打者に挑む",
+          "difficulty": "低"
+        },
+        {
+          "pitch": "スライダー",
+          "speedRange": "75–90 mph",
+          "movement": "鋭い横・下方向への変化",
+          "bestFor": "打者を惑わし目線をそらす",
+          "difficulty": "中"
+        },
+        {
+          "pitch": "シンカー",
+          "speedRange": "70–90 mph",
+          "movement": "下方向に落ちる",
+          "bestFor": "ゴロを打たせる",
+          "difficulty": "中"
+        },
+        {
+          "pitch": "カーブ",
+          "speedRange": "65–85 mph",
+          "movement": "下または斜め方向に曲がる",
+          "bestFor": "タイミングを外し緩急をつける",
+          "difficulty": "中"
+        }
+      ],
+      "notesTitle": "球種選択のヒント",
+      "notes": [
+        "ファストボールは Batter のタイミングが遅れている時に最も効果的です。遅い球種と組み合わせることで、効果的な配球を組み立てられます。",
+        "スライダーは、ファストボールよりも大きな変化が欲しいけれど、シンカーやカーブほど落としたくない場合に便利です。",
+        "シンカーは、空振りを狙うよりも、弱い当たりを打たせたい場合に実用的な選択肢となります。",
+        "カーブは4つの球種の中で最も遅いですが、速い球の後に緩急をつけるのに非常に効果的です。"
+      ]
+    },
+    "superstarBaseballHowToGetMoreSpins": {
+      "title": "Superstar Baseball Spins を増やす方法",
+      "eyebrow": "進行ガイド",
+      "subtitle": "Spins はキャラクター、装備、コスメティックをアンロックするために不可欠な、Superstar Baseball の進行の核となる要素です。最も効率的な入手方法は、まず Codes を使い、次に放置や試合での報酬を狙うことです。",
+      "intro": "Superstar Baseball には、Spins、Lucky Spins、Style Spins の3つのカテゴリーがあります。まずは有効な Codes を入力し、無料の Spins を回収し、試合報酬やマイルストーンを積み重ねて継続的に増やしていきましょう。",
+      "items": [
+        {
+          "label": "まずは有効なすべての Codes を使う",
+          "detail": "Codes は、Spins、Lucky Spins、Style Spins、コインを入手する最速の方法です。TUTORIAL、METRO、BASEBALLPRESENT、SUBZERO, 80KLIKES、SLUGGER、SUPERSTAR などの有効な Codes を、やり込む前にすべて使いましょう。"
+        },
+        {
+          "label": "マイルストーン Codes から Lucky Spins を受け取る",
+          "detail": "Codes の報酬の中で最も価値があるものの一つが、通常の Spins よりも確率が良い Lucky Spins です。TUTORIAL、METRO、BASEBALLPRESENT ではそれぞれ 3 つの Lucky Spins が手に入ります。新しいアカウントを作成したらすぐに受け取りましょう。"
+        },
+        {
+          "label": "試合を継続的にプレイして通常の Spins を獲得する",
+          "detail": "通常の Spins は、試合報酬やデイリープレイから入手できます。Codes を使い切った後は、着実に試合をこなすことが Spins を補充する基本となります。"
+        },
+        {
+          "label": "30分ごとの無料 Spin を受け取る",
+          "detail": "プレイヤーは30分ごとに1つの無料 Spin を受け取れます。定期的にチェックするだけの簡単な方法ですが、時間をかければ大きな差になります。"
+        },
+        {
+          "label": "プレイしながらマイルストーンを達成する",
+          "detail": "マイルストーンの進行は、特に Codes を使い切った後に Spins を稼ぐ手段となります。試合中に自然に目標を達成できるよう意識しましょう。"
+        },
+        {
+          "label": "Lucky Spins は通常の Spins よりも慎重に使う",
+          "detail": "Lucky Spins はレアなアイテムが出る確率が高くなっています。手当たり次第に使うのではなく、本当に強力なロースターのアップグレードが必要な時のために取っておきましょう。"
+        }
+      ]
+    },
+    "superstarBaseballCoinsGuide": {
+      "eyebrow": "Currency Guide",
+      "title": "Superstar Baseball Coins Guide",
+      "subtitle": "Coins are part of the game's early growth loop alongside Spins and Lucky Spins. The fastest start comes from redeeming codes, playing matches, and avoiding low-impact spending.",
+      "intro": "In Superstar Baseball, Coins sit next to the Spins system as one of the core progression resources. Start by claiming code rewards, build a small reserve through matches, then spend on practical upgrades before chasing extras.",
+      "items": [
+        {
+          "title": "What Coins Are For",
+          "description": "Coins are the main currency for upgrades, making them part of your baseline progression rather than a cosmetic-only resource.",
+          "highlights": [
+            "Main currency for upgrades",
+            "Works alongside Spins and Lucky Spins",
+            "Useful for early account progression"
+          ]
+        },
+        {
+          "title": "Fastest Ways To Get Coins",
+          "description": "The most reliable early sources are reward codes, regular match play, and milestone progress.",
+          "highlights": [
+            "Redeem active codes first",
+            "Play matches consistently",
+            "Complete milestones and objectives"
+          ]
+        },
+        {
+          "title": "Best Early Spending Priority",
+          "description": "Use Coins on upgrades that improve win rate first, while delaying lower-impact purchases until your core gameplay feels stable.",
+          "highlights": [
+            "Prioritize gameplay-impact upgrades",
+            "Keep a reserve instead of spending instantly",
+            "Delay non-essential purchases early"
+          ]
+        },
+        {
+          "title": "Code Reward Snapshot",
+          "description": "Coins appear in the reward pool through code drops such as SUPERSTAR, alongside the more common Spin rewards.",
+          "highlights": [
+            "SUPERSTAR gives 100 Coins",
+            "Most codes focus on Spins",
+            "Coins are a useful bonus alongside Spins"
+          ]
+        },
+        {
+          "title": "Simple Coin Routine",
+          "description": "Redeem all working codes, play enough matches to keep progression moving, and only spend once you know which upgrades help your role most.",
+          "highlights": [
+            "Redeem codes before queuing",
+            "Build a coin reserve through matches",
+            "Spend after you know your preferred role"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballRolesGuide": {
+      "eyebrow": "Core Roles",
+      "title": "Superstar Baseball Roles Guide",
+      "subtitle": "Superstar Baseball revolves around three playable roles during matches. Learning the responsibility of each role makes every guide on hitting, pitching, and team play easier to understand.",
+      "intro": "Before diving into advanced mechanics, it helps to see the match through its three core roles. A batter creates runs, a pitcher disrupts contact, and a fielder converts batted balls into outs.",
+      "items": [
+        {
+          "title": "Batter",
+          "description": "The batter's job is to make contact, clear the infield, and convert chances into runs.",
+          "highlights": [
+            "Primary scoring role",
+            "Needs timing and plate discipline",
+            "Benefits from strong contact and lineup placement"
+          ]
+        },
+        {
+          "title": "Pitcher",
+          "description": "The pitcher controls the pace of each at-bat by mixing speeds, changing location, and forcing bad swings or weak contact.",
+          "highlights": [
+            "Disrupts batter timing",
+            "Uses pitch variety to stay unpredictable",
+            "Wins through sequence and placement"
+          ]
+        },
+        {
+          "title": "Fielder",
+          "description": "The fielder turns defense into outs by catching the ball cleanly and making accurate throws to the right base.",
+          "highlights": [
+            "Covers space and reacts quickly",
+            "Needs good positioning and throw accuracy",
+            "Can swing momentum through clean assists"
+          ]
+        },
+        {
+          "title": "Pitch Types Used By Pitchers",
+          "description": "Four basic pitch families set the rhythm of pitching decisions in Superstar Baseball.",
+          "highlights": [
+            "Curveball: downward or sideways movement",
+            "Sinker: drop-focused pitch for grounders",
+            "Slider: sharper lateral or downward break",
+            "Fastball: straight speed pressure"
+          ]
+        },
+        {
+          "title": "Which Role Is Best For New Players",
+          "description": "Many beginners in Superstar Baseball improve quickly by focusing on one role at a time instead of trying to master everything in a single session.",
+          "highlights": [
+            "Batter for timing practice",
+            "Pitcher for control and mind games",
+            "Fielder for teamwork and defensive reads"
+          ]
+        }
+      ]
+    },
+    "superstarBaseball7v7MatchGuide": {
+      "eyebrow": "Match Basics",
+      "title": "Superstar Baseball 7v7 Match Guide",
+      "subtitle": "Superstar Baseball is built around quick 7v7 arcade baseball matches on Roblox. Understanding the overall flow helps players make sense of team roles, pacing, and why communication matters.",
+      "intro": "Once you see the match as a rotating loop of batting, pitching, and field support, the game becomes much easier to read.",
+      "items": [
+        {
+          "question": "What Is The Core Match Format?",
+          "answer": "Superstar Baseball is a 7v7 arcade baseball game on Roblox. Matches place players into teams where batting, pitching, and fielding all rotate into the overall session flow."
+        },
+        {
+          "question": "What Do You Actually Do During A Match?",
+          "answer": "You take part in the baseball loop from different angles: batting to create runs, pitching to deny strong contact, and fielding to secure outs and stop extra bases."
+        },
+        {
+          "question": "Why Does 7v7 Change The Experience?",
+          "answer": "Because there are multiple human players on each side, teamwork matters more than in a solo sports game. Clean defense, smart throws, and dependable role execution help as much as standout individual plays."
+        },
+        {
+          "question": "What Helps New Players Win More Quickly?",
+          "answer": "New players benefit from learning the strike zone, mixing pitches instead of repeating one option, and making simple defensive decisions rather than forcing highlight plays."
+        },
+        {
+          "question": "Does Team Coordination Matter In Superstar Baseball?",
+          "answer": "Yes. Solo queue is fully playable, but coordinated groups tend to control the field better and convert more wins, especially on defense."
+        },
+        {
+          "question": "What Is A Good First Match Goal?",
+          "answer": "A strong early goal is to avoid throwing away possessions: take cleaner swings, throw accurate balls as a fielder, and keep your pitching unpredictable instead of trying to dominate every play."
+        }
+      ]
+    },
+    "superstarBaseballSoloQueueTips": {
+      "eyebrow": "ソロプレイ",
+      "title": "Superstar Baseball ソロキューのコツ",
+      "subtitle": "Superstar Baseball ではソロキューでも十分にプレイ可能ですが、公開ロビーではシンプルな判断と一貫性が重要視されます。周囲のチームが不安定な時でも、最善のソロ習慣を身につけることで貢献し続けることができます。",
+      "intro": "すべてのプレイヤーが友達とキューを組むわけではありません。Superstar Baseball はソロプレイもサポートしています。ソロプレイヤーは、正確なタイミング、安全な守備、賢い球種の使い分け、無駄なリスクの回避といった、再現可能な習慣に集中することで最大の価値を得られます。",
+      "items": [
+        {
+          "label": "キューを入れる前に有効な Codes を引き換え、追加の Spins やコインを持って開始しましょう。"
+        },
+        {
+          "label": "派手なプレーを無理に狙うのではなく、自分の役割を確実にこなしましょう。"
+        },
+        {
+          "label": "Pitcher として、同じ球種を何度も繰り返すのは避けましょう。"
+        },
+        {
+          "label": "球速だけを追い求めるのではなく、投球コースやコーナーを狙いましょう。"
+        },
+        {
+          "label": "Batter として、スイングする前にボールがゾーンに入るのを待ちましょう。"
+        },
+        {
+          "label": "コンタクトが弱いゴロになりがちな場合は、他のすべてを変える前にタイミングを調整してください。"
+        },
+        {
+          "label": "Fielder として、確実なキャッチと正確な送球を優先しましょう。"
+        },
+        {
+          "label": "すでに手に入れた最も強力なキャラクターや Styles を中心に構成しましょう。"
+        },
+        {
+          "label": "より強力な引きを狙いたい時のために、Lucky Spins を取っておきましょう。"
+        },
+        {
+          "label": "公開マッチをパターン読みの練習と考え、プレッシャーのかかる場面で相手がどのように投げたり打ったりするかを観察しましょう。"
         }
       ]
     }
@@ -757,177 +879,217 @@
   "faq": {
     "title": "よくある",
     "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "subtitle": "Roblox の Superstar Baseball に関するよくある質問",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "Superstar Baseball とは何ですか？",
+        "answer": "Superstar Baseball は、Metavision による Roblox 上のアニメ風 7対7 対戦型野球ゲームです。プレイヤーは攻守の Styles を選択し、テンポの速い試合で競い合い、報酬として Spins やコインを獲得します。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "Superstar Baseball で Codes を引き換えるにはどうすればよいですか？",
+        "answer": "Superstar Baseball を開き、設定メニューをタップして一番下までスクロールし、引き換えボックスにコードを貼り付けて Enter キーを押すと報酬を受け取れます。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "Superstar Baseball の Spins とは何ですか？",
+        "answer": "Spins は、Superstar Baseball で新しい Styles を入手するための主要なリソースです。30分ごとに無料スピンを利用できます。Lucky Spins は、レアまたはレジェンダリーの Styles を入手できる確率を高めます。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "Superstar Baseball の3つの役割は何ですか？",
+        "answer": "3つの役割は Batter、Pitcher、Fielder です。Batter はボールを打って得点することを目指します。Pitcher は三振を奪ったり、弱い当たりを打たせたりすることを目指します。Fielder はボールをキャッチして送球し、アウトを取ります。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
+        "question": "Superstar Baseball でより多くの Spins を入手するにはどうすればよいですか？",
+        "answer": "Spins は、有効な Codes の引き換え、30分ごとにリセットされる無料スピンの受け取り、またはゲーム内ストアでの購入によって入手できます。"
       },
       {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "Superstar Baseball はどこでプレイできますか？",
+        "answer": "Superstar Baseball は Roblox で無料でプレイできます。Roblox プラットフォームで Superstar Baseball を検索するか、公式ゲームページにアクセスしてプレイを開始してください。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Superstar Baseball をプレイする準備はできましたか？",
+    "description": "ガイド、アップデート、ディスカッションのために、Discord の Superstar Baseball コミュニティに参加しましょう！",
+    "joinCommunity": "Discord に参加",
+    "joinGame": "Roblox でプレイ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Superstar Baseball Wiki",
+    "description": "Superstar Baseball の Codes、Styles、バッティング、ピッチング、操作方法、ガイドに関する完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "twitter": "Metavision Group",
+    "steamCommunity": "Roblox Community",
+    "steamStore": "Roblox でプレイ",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
+    "copyright": "© 2026 Superstar Baseball Wiki. Superstar Baseball の開発者とは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
+    "guide": {
+      "title": "Superstar Baseball ガイド",
+      "description": "初心者の基本から高度な戦略まで、Superstar Baseball の完全ガイド。バッティング、ピッチング、守備、対戦のコツを学びましょう。",
+      "metaTitle": "Superstar Baseball ガイド - 初心者から上級者向けのコツ",
+      "metaDescription": "Roblox プレイヤー向けの、遊び方、初心者向けのコツ、チュートリアル、高度な戦略を網羅した Superstar Baseball 完全ガイド。",
       "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+      "whatIs": "ガイドとは何ですか？",
+      "whatIsDescription": "Superstar Baseball ガイドは、基本的な操作や役割から、高度なピッチングパターン、バッティング Styles、対戦戦略まで、あらゆる内容を網羅しています。初心者でも経験者でも、あらゆるスキルレベルに合わせたガイドがあります。",
+      "why": "なぜガイドを読むのですか？",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "基本を学ぶ",
+        "step1Description": "役割、操作、コアメカニクスを理解して、すぐに始めましょう",
+        "step2Title": "より早く上達する",
+        "step2Description": "実証済みの戦略に従ってランクを上げ、より多くの試合に勝ちましょう",
+        "step3Title": "高度なプレイをマスターする",
+        "step3Description": "スピン管理、投球の組み合わせ、チームの連携などの高度なテクニックをアンロックしましょう"
       },
-      "featured": "注目・必須ガイド",
+      "featured": "おすすめ＆必須",
       "all": "すべてのガイド"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "codes": {
+      "title": "Superstar Baseball Codes",
+      "description": "すべての有効および期限切れの Superstar Baseball Codes。Codes を引き換えて、無料の Spins、Lucky Spins、コインを手に入れましょう。",
+      "metaTitle": "Superstar Baseball Codes - 無料の Spins、Lucky Spins & コイン",
+      "metaDescription": "無料の Spins、Lucky Spins、コインの有効なコードを含む、Superstar Baseball Codes の完全なリスト。引き換え方法のガイドも含まれています。",
+      "categoryLabel": "Codes の引き換え",
+      "whatIs": "Codes とは何ですか？",
+      "whatIsDescription": "Superstar Baseball Codes は、開発者からの無料の報酬ギフトです。これらを引き換えることで、Robux を使わずに Spins、Lucky Spins、コインを獲得でき、より早く進行できます。",
+      "why": "なぜ Codes を引き換えるのですか？",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "無料の Spins を入手",
+        "step1Description": "コインを使わずに、新しい攻守の Styles のためにスピンしましょう",
+        "step2Title": "Lucky Spins を獲得",
+        "step2Description": "レアまたはレジェンダリーの Styles を入手できる確率を高めましょう",
+        "step3Title": "コインを集める",
+        "step3Description": "コインを使用して、ゲーム内ストアでアイテムやアップグレードを購入しましょう"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "おすすめ＆有効",
+      "all": "すべての Codes"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "roblox": {
+      "title": "Superstar Baseball Roblox",
+      "description": "RobloxのSuperstar Baseballに関するすべて — 打撃のStyles、投球メカニクス、対戦のヒント、そしてダイヤモンドを支配する方法。",
+      "metaTitle": "Superstar Baseball Roblox - 打撃、投球、対戦ガイド",
+      "metaDescription": "打撃Styles、投球戦略、ホームランのテクニック、対戦プレイのヒントに関するガイドで、RobloxのSuperstar Baseballをマスターしましょう。",
+      "categoryLabel": "ROBLOXガイド",
+      "whatIs": "Superstar Baseball Robloxとは？",
+      "whatIsDescription": "Superstar Baseballは、Roblox上のテンポの速いアニメ風7対7野球ゲームです。プレイヤーはBatter、Pitcher、Fielderとして、Spinsでアンロックした特別なStylesやアビリティを駆使して競い合います。",
+      "why": "なぜRobloxでSuperstar Baseballをプレイするのか？",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "ユニークなアニメStyles",
+        "step1Description": "ユニークな視覚効果とステータスブーストを備えたレアな攻撃・守備Stylesをアンロックしましょう。",
+        "step2Title": "競争力のある7対7マッチ",
+        "step2Description": "世界中のプレイヤーとランクマッチやカジュアルマッチで対戦しましょう。",
+        "step3Title": "定期的なアップデート",
+        "step3Description": "新しいStyles、バランス調整、シーズンコンテンツにより、一年中ゲームを新鮮に保ちます。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのRobloxガイド"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "hitting": {
+      "title": "Superstar Baseball 打撃ガイド",
+      "description": "タイミングガイド、ホームラン戦略、あらゆるスキルレベル向けの攻撃Stylesのヒントで、Superstar Baseballの打撃をマスターしましょう。",
+      "metaTitle": "Superstar Baseball 打撃ガイド - ホームランとバッティングのヒント",
+      "metaDescription": "スイングタイミングのガイド、ホームランのテクニック、攻撃Stylesのランキング、球種の見極めのヒントでSuperstar Baseballの打撃を学びましょう。",
+      "categoryLabel": "打撃ガイド",
+      "whatIs": "打撃とは？",
+      "whatIsDescription": "Superstar Baseballの打撃には、球種を読み、飛んでくるボールに合わせてスイングのタイミングを計り、ホームランのためのコンタクトとパワーを最大化する適切な攻撃Stylesを選択することが求められます。",
+      "why": "なぜ打撃をマスターするのか？",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "より安定したヒットを打つ",
+        "step1Description": "球種のタイミングを理解して三振を減らし、コンタクト率を高めましょう。",
+        "step2Title": "より多くの得点を挙げる",
+        "step2Description": "ランナーを返し、接戦を制する能力を向上させましょう。",
+        "step3Title": "ホームランを打つ",
+        "step3Description": "打ち出し角度と飛距離を最大化するための、センター高めのコンタクトゾーンと最適なStylesを学びましょう。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "おすすめ＆必須",
+      "all": "すべての打撃ガイド"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "pitching": {
+      "title": "Superstar Baseball 投球ガイド",
+      "description": "球種ガイド、緩急の戦略、Batterを翻弄する方法で、Superstar Baseballの投球をマスターしましょう。",
+      "metaTitle": "Superstar Baseball 投球ガイド - 球種と戦略",
+      "metaDescription": "カーブ、シンカー、スライダー、ファストボールの球種ガイドに加え、Batterを圧倒するための緩急の戦略でSuperstar Baseballの投球を学びましょう。",
+      "categoryLabel": "投球ガイド",
+      "whatIs": "投球とは？",
+      "whatIsDescription": "Superstar Baseballの投球では、4つの球種から選択し、速度とコースを使い分けて三振、打ち損じ、アウトを奪います。",
+      "why": "なぜ投球をマスターするのか？",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "三振を奪う",
+        "step1Description": "球種と速度を織り交ぜて、Batterのタイミングを外しましょう。",
+        "step2Title": "試合をコントロールする",
+        "step2Description": "強力な投球は失点を防ぎ、チームに勝利のチャンスを与えます。",
+        "step3Title": "Batterを読む",
+        "step3Description": "Batterの傾向に基づいて、オフスピードピッチとファストボールをいつ投げるべきか学びましょう。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
+      "featured": "おすすめ＆必須",
+      "all": "すべての投球ガイド"
     },
-    "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
-      "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
+    "styles": {
+      "title": "Superstar Baseball Styles",
+      "description": "Superstar Baseballの攻撃・守備Stylesのティアリスト、ランキング、対戦プレイのための戦略ガイド。",
+      "metaTitle": "Superstar Baseball Styles - 最強の攻撃・守備Styles",
+      "metaDescription": "攻撃・守備Styles、ティアランキング、打撃や守備に最適なStylesを網羅した完全なSuperstar Baseball Stylesガイド。",
+      "categoryLabel": "STYLESガイド",
+      "whatIs": "Stylesとは？",
+      "whatIsDescription": "Superstar BaseballにおけるStylesは、Spinsを使用して入手するアビリティです。攻撃Stylesは打撃のパワーとコンタクトを向上させ、守備Stylesは守備と送球のパフォーマンスを高めます。",
+      "why": "なぜStylesに注目するのか？",
       "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
+        "step1Title": "打撃パワーを強化",
+        "step1Description": "ImpactやCombustionのような攻撃Stylesは、打球速度とパワーを向上させます。",
+        "step2Title": "守備を改善",
+        "step2Description": "守備Stylesは、反応プレイ、ダイビングキャッチ、送球の正確さを助けます。",
+        "step3Title": "自分のプレイスタイルを構築",
+        "step3Description": "強力な攻撃・守備Stylesを組み合わせて、対戦マッチを支配しましょう。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのStyles"
+    },
+    "fielding": {
+      "title": "Superstar Baseball 守備ガイド",
+      "description": "キャッチガイド、送球戦略、ダイブメカニクスで、Superstar Baseballの守備をマスターしましょう。",
+      "metaTitle": "Superstar Baseball 守備ガイド - キャッチ、送球、ダイブ",
+      "metaDescription": "ダイビングキャッチ、送球のタイミング、緑の矢印のターゲット、守備エラーを最小限に抑える方法など、Superstar Baseballの守備メカニクスを学びましょう。",
+      "categoryLabel": "守備ガイド",
+      "whatIs": "守備とは？",
+      "whatIsDescription": "Superstar Baseballの守備には、フライの捕球、タイムリーな送球、難しい打球へのダイブ、そしてアウトを取るためのチームメイトとの連携が必要です。",
+      "why": "なぜ守備をマスターするのか？",
+      "whySteps": {
+        "step1Title": "長打を防ぐ",
+        "step1Description": "強力な守備はランナーの進塁と余計な失点を防ぎます。",
+        "step2Title": "ダブルプレーを完成させる",
+        "step2Description": "正確な送球と連携により、より多くのインプレーの打球をアウトに変えましょう。",
+        "step3Title": "難しい打球にダイブする",
+        "step3Description": "Eキーを使用して、外野に抜けそうなボールにダイブしましょう。"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべての守備ガイド"
+    },
+    "updates": {
+      "title": "Superstar Baseball アップデート",
+      "description": "Superstar Baseballの最新アップデート、パッチノート、新しいStyles、シーズンコンテンツ。すべての主要な変更を常に把握しましょう。",
+      "metaTitle": "Superstar Baseball アップデート - パッチノートと新コンテンツ",
+      "metaDescription": "新しいStyles、バランス調整、ランクモードのアップデート、2v2イベント、シーズンの球場変更など、すべてのSuperstar Baseballアップデートを追跡します。",
+      "categoryLabel": "アップデート",
+      "whatIs": "アップデートとは？",
+      "whatIsDescription": "Superstar Baseballのアップデートでは、新しいStyles、バランス調整、ゲームモード、シーズンコンテンツが追加されます。アップデート情報を把握することで、現在のメタに合わせて戦略を適応させることができます。",
+      "why": "なぜアップデートを追うのか？",
+      "whySteps": {
+        "step1Title": "メタへの即応",
+        "step1Description": "アップデートのたびに新しいStylesやバランス調整によって競技環境が変化します",
+        "step2Title": "新コンテンツへのアクセス",
+        "step2Description": "アップデートにより、新しいゲームモード、球場、期間限定イベントが追加されます",
+        "step3Title": "新しい報酬の獲得",
+        "step3Description": "大規模なアップデートでは、多くの場合、全プレイヤー向けに無料のCodesやボーナスSpinsが提供されます"
+      },
+      "featured": "おすすめと最新",
+      "all": "すべてのアップデート"
     }
   }
 }
