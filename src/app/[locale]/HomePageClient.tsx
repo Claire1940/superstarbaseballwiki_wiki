@@ -29,6 +29,7 @@ import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
 import { NativeBannerAd, AdBanner } from '@/components/ads'
+import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
@@ -228,6 +229,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+
+      {/* 左侧广告容器 - Fixed 定位 */}
+      <aside
+        className="hidden xl:block fixed top-20 w-40 z-10"
+        style={{ left: 'calc((100vw - 896px) / 2 - 180px)' }}
+      >
+        <SidebarAd type="sidebar-160x600" adKey={process.env.NEXT_PUBLIC_AD_SIDEBAR_160X600} />
+      </aside>
+
+      {/* 右侧广告容器 - Fixed 定位 */}
+      <aside
+        className="hidden xl:block fixed top-20 w-40 z-10"
+        style={{ right: 'calc((100vw - 896px) / 2 - 180px)' }}
+      >
+        <SidebarAd type="sidebar-160x300" adKey={process.env.NEXT_PUBLIC_AD_SIDEBAR_160X300} />
+      </aside>
 
       {/* 广告位 1: 移动端横幅 Sticky */}
       <div className="sticky top-20 z-20 border-b border-border py-2">
