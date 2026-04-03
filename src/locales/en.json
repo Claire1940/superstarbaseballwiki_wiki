@@ -98,6 +98,26 @@
         "icon": "Shield",
         "title": "Superstar Baseball Defensive Styles",
         "description": "Defensive style rarity tiers and upgrade ladder"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Superstar Baseball How to Hit Home Runs",
+        "description": "Timing cues, zone selection, and swing discipline for home runs"
+      },
+      {
+        "icon": "Hand",
+        "title": "Superstar Baseball Fielding Guide",
+        "description": "Dive mechanics, throw accuracy, and team defense basics"
+      },
+      {
+        "icon": "Activity",
+        "title": "Superstar Baseball Best Pitch Types",
+        "description": "Fastball, Slider, Sinker, and Curveball compared by speed and movement"
+      },
+      {
+        "icon": "Gift",
+        "title": "Superstar Baseball How to Get More Spins",
+        "description": "Codes, free spin timer, match rewards, and milestone methods"
       }
     ]
   },
@@ -500,6 +520,152 @@
             "Learning roles and positioning",
             "First reroll targets"
           ]
+        }
+      ]
+    },
+    "superstarBaseballHowToHitHomeRuns": {
+      "title": "Superstar Baseball How to Hit Home Runs",
+      "eyebrow": "Batting Guide",
+      "subtitle": "Home runs come from timing first, then zone selection. This module focuses on the repeatable habits that turn clean contact into long balls.",
+      "intro": "Superstar Baseball rewards disciplined swings more than panic clicking. The clearest pattern across guides is to wait for hittable pitches, connect on time, and look for balls in the center-high part of the zone if you want better launch angle.",
+      "steps": [
+        {
+          "title": "Watch the Ball Out of the Pitcher's Hand",
+          "description": "Track the pitch early instead of reacting at the last second. Reading the ball out of the hand is the first part of better batting and gives you more time to judge speed and location."
+        },
+        {
+          "title": "Do Not Swing at Everything",
+          "description": "Take balls and make the pitcher enter the zone. A walk still puts you on base, and patient at-bats create better home-run chances than chasing weak pitches."
+        },
+        {
+          "title": "Start Your Swing Around the Halfway Point",
+          "description": "Timing is the main separator between weak contact and strong contact. Begin the swing when the ball is about halfway to the plate — swinging too early produces fouls, too late produces whiffs."
+        },
+        {
+          "title": "Hunt the Center-High Part of the Strike Zone",
+          "description": "The most direct home-run tip is to swing at pitches in the center-high zone. That placement gives a better launch angle than low or outside contact."
+        },
+        {
+          "title": "Use Ground Balls and Foul Balls as Feedback",
+          "description": "If you keep hitting grounders, your contact point is too low or your swing is too late. If you foul off pitches consistently, your swing is likely too early — adjust and recalibrate."
+        },
+        {
+          "title": "Practice in Casual Matches Until Timing Feels Natural",
+          "description": "The swing window is tight, so repetition matters. Casual games are the safest place to build a feel for pitch speed and your own swing rhythm before competing seriously."
+        }
+      ]
+    },
+    "superstarBaseballFieldingGuide": {
+      "title": "Superstar Baseball Fielding Guide",
+      "eyebrow": "Defense Guide",
+      "subtitle": "Fielding in Superstar Baseball is about reacting cleanly, diving at the right moment, and making accurate throws. Solid defense turns routine contact into outs.",
+      "intro": "The core fielding loop is clear: catch the ball, dive when needed, and throw accurately to teammates. Good defense also improves when players communicate and cover space together in 7v7 matches.",
+      "steps": [
+        {
+          "title": "Know Your Job as a Fielder",
+          "description": "The fielder role is straightforward: catch the ball and make accurate throws to get opponents out. Everything else builds on top of that core loop."
+        },
+        {
+          "title": "Use the Dive When the Ball Is Just Out of Reach",
+          "description": "On PC, the default dive key is E. Save it for balls you cannot secure with normal movement, especially on line drives or late reactions when the ball is barely reachable."
+        },
+        {
+          "title": "Secure the Catch Before Rushing the Throw",
+          "description": "Once you have the ball, move immediately into a clean throw instead of hesitating. Defense becomes more reliable when the catch-to-throw sequence is quick and controlled."
+        },
+        {
+          "title": "Aim the Throw With the Green Arrow",
+          "description": "After fielding the ball, left click to throw and use the green arrow to line up the target teammate. Accurate aiming is one of the clearest documented defensive mechanics in Superstar Baseball."
+        },
+        {
+          "title": "Play Team Defense in 7v7 Matches",
+          "description": "Superstar Baseball is built around 7v7 games, so defense is a shared responsibility. Communication and coordinated coverage make it easier to convert contact into outs consistently."
+        },
+        {
+          "title": "Build Defensive Consistency Over Flashy Plays",
+          "description": "Stronger fielding ties directly to winning more consistently. Clean catches, better throw decisions, and fewer rushed mistakes matter more than highlight-reel plays."
+        }
+      ]
+    },
+    "superstarBaseballBestPitchTypes": {
+      "title": "Superstar Baseball Best Pitch Types",
+      "eyebrow": "Pitching Guide",
+      "subtitle": "Superstar Baseball has four core pitch types. Each pitch has a different speed band and movement profile — the best option depends on the batter and the count.",
+      "intro": "The most useful way to compare pitch types in Superstar Baseball is by speed, movement, and what kind of contact they usually force. Fastballs pressure hitters with speed, while breaking and sinking pitches are better for deception and weak contact.",
+      "tableHeaders": {
+        "pitch": "Pitch",
+        "speedRange": "Speed Range",
+        "movement": "Movement",
+        "bestFor": "Best For",
+        "difficulty": "Difficulty"
+      },
+      "pitchRows": [
+        {
+          "pitch": "Fastball",
+          "speedRange": "80–100 mph",
+          "movement": "Straight, velocity-focused",
+          "bestFor": "Challenging hitters with raw speed",
+          "difficulty": "Low"
+        },
+        {
+          "pitch": "Slider",
+          "speedRange": "75–90 mph",
+          "movement": "Sharp lateral and downward break",
+          "bestFor": "Deceiving hitters and changing eye level",
+          "difficulty": "Medium"
+        },
+        {
+          "pitch": "Sinker",
+          "speedRange": "70–90 mph",
+          "movement": "Drops downward",
+          "bestFor": "Forcing ground-ball contact",
+          "difficulty": "Medium"
+        },
+        {
+          "pitch": "Curveball",
+          "speedRange": "65–85 mph",
+          "movement": "Curves downward or sideways",
+          "bestFor": "Disrupting timing and changing pace",
+          "difficulty": "Medium"
+        }
+      ],
+      "notesTitle": "Pitch Selection Tips",
+      "notes": [
+        "Fastball works best when the batter is behind on timing — pair it with a slower follow-up to create an effective sequence.",
+        "Slider is useful when you want stronger movement than a fastball without dropping as much as a sinker or curveball.",
+        "Sinker is a practical choice when you want weaker contact instead of pure swing-and-miss pressure.",
+        "Curveball is the slowest of the four pitch types but one of the most effective for changing pace after faster pitches."
+      ]
+    },
+    "superstarBaseballHowToGetMoreSpins": {
+      "title": "Superstar Baseball How to Get More Spins",
+      "eyebrow": "Progression Guide",
+      "subtitle": "Spins are the center of Superstar Baseball progression because they unlock characters, gear, and cosmetics. The fastest routes are codes first, then passive and match-based gains.",
+      "intro": "Superstar Baseball uses three spin categories: Spins, Lucky Spins, and Style Spins. Start with redeemable codes, collect passive free spins, then stack match rewards and milestones for sustained progression.",
+      "items": [
+        {
+          "label": "Redeem All Active Codes First",
+          "detail": "Codes are the fastest source of Spins, Lucky Spins, Style Spins, and Coins. Active examples include TUTORIAL, METRO, BASEBALLPRESENT, SUBZERO, 80KLIKES, SLUGGER, and SUPERSTAR — redeem before grinding."
+        },
+        {
+          "label": "Claim Lucky Spins From Milestone Codes",
+          "detail": "Some of the most valuable code rewards are Lucky Spins, which have better odds than regular Spins. TUTORIAL, METRO, and BASEBALLPRESENT each award 3 Lucky Spins — claim these immediately on a new account."
+        },
+        {
+          "label": "Play Matches Consistently for Standard Spins",
+          "detail": "Standard Spins come from match rewards and daily play. Playing games steadily is the baseline way to refill your spin pool after codes are exhausted."
+        },
+        {
+          "label": "Pick Up the Free Spin Every 30 Minutes",
+          "detail": "Players receive one free spin every 30 minutes. Passive check-ins are a simple low-effort farming method that adds up significantly over time."
+        },
+        {
+          "label": "Hit Milestones as You Play",
+          "detail": "Milestone progress is a way to earn more Spins over time, especially after codes are exhausted. Focus on completing objectives naturally during match play."
+        },
+        {
+          "label": "Spend Lucky Spins More Carefully Than Regular Spins",
+          "detail": "Lucky Spins have better odds for rarer pulls. Save them for moments when you actually want stronger roster upgrades instead of spending them immediately on any available spin."
         }
       ]
     }

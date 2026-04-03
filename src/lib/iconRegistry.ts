@@ -42,6 +42,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Target: LucideIcons.Target,
   RotateCcw: LucideIcons.RotateCcw,
   Swords: LucideIcons.Swords,
+  Trophy: LucideIcons.Trophy,
+  Hand: LucideIcons.Hand,
+  Activity: LucideIcons.Activity,
+  Gift: LucideIcons.Gift,
 
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,

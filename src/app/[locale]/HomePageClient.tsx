@@ -2,11 +2,14 @@
 
 import { useEffect, Suspense, lazy } from 'react'
 import {
+  Activity,
   ArrowRight,
   BookOpen,
   Check,
   Download,
   ExternalLink,
+  Gift,
+  Hand,
   Keyboard,
   RotateCcw,
   Sparkles,
@@ -14,6 +17,7 @@ import {
   Swords,
   Target,
   TrendingUp,
+  Trophy,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -270,7 +274,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               // 映射卡片索引到 section ID
               const sectionIds = [
                 'superstar-baseball-codes', 'beginner-guide', 'controls', 'batting-guide',
-                'pitching-guide', 'spins-guide', 'offensive-styles', 'defensive-styles'
+                'pitching-guide', 'spins-guide', 'offensive-styles', 'defensive-styles',
+                'how-to-hit-home-runs', 'fielding-guide', 'best-pitch-types', 'how-to-get-more-spins'
               ]
               const sectionId = sectionIds[index]
 
@@ -716,6 +721,201 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     ))}
                   </ul>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Superstar Baseball How to Hit Home Runs */}
+      <section id="how-to-hit-home-runs" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Trophy className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballHowToHitHomeRuns.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballHowToHitHomeRuns']} locale={locale}>
+                {t.modules.superstarBaseballHowToHitHomeRuns.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballHowToHitHomeRuns.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballHowToHitHomeRuns.intro}
+            </p>
+          </div>
+
+          {/* Steps */}
+          <div className="scroll-reveal space-y-4">
+            {t.modules.superstarBaseballHowToHitHomeRuns.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">
+                    <LinkedTitle linkData={moduleLinkMap[`superstarBaseballHowToHitHomeRuns::steps::${index}`]} locale={locale}>
+                      {step.title}
+                    </LinkedTitle>
+                  </h3>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Superstar Baseball Fielding Guide */}
+      <section id="fielding-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Hand className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballFieldingGuide.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballFieldingGuide']} locale={locale}>
+                {t.modules.superstarBaseballFieldingGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballFieldingGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballFieldingGuide.intro}
+            </p>
+          </div>
+
+          {/* Steps */}
+          <div className="scroll-reveal space-y-4">
+            {t.modules.superstarBaseballFieldingGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">
+                    <LinkedTitle linkData={moduleLinkMap[`superstarBaseballFieldingGuide::steps::${index}`]} locale={locale}>
+                      {step.title}
+                    </LinkedTitle>
+                  </h3>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Superstar Baseball Best Pitch Types */}
+      <section id="best-pitch-types" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Activity className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballBestPitchTypes.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballBestPitchTypes']} locale={locale}>
+                {t.modules.superstarBaseballBestPitchTypes.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballBestPitchTypes.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballBestPitchTypes.intro}
+            </p>
+          </div>
+
+          {/* Pitch Types Comparison Table */}
+          <div className="scroll-reveal overflow-x-auto mb-10">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-border bg-[hsl(var(--nav-theme)/0.05)]">
+                  <th className="text-left p-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">{t.modules.superstarBaseballBestPitchTypes.tableHeaders.pitch}</th>
+                  <th className="text-left p-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">{t.modules.superstarBaseballBestPitchTypes.tableHeaders.speedRange}</th>
+                  <th className="text-left p-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))] hidden sm:table-cell">{t.modules.superstarBaseballBestPitchTypes.tableHeaders.movement}</th>
+                  <th className="text-left p-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">{t.modules.superstarBaseballBestPitchTypes.tableHeaders.bestFor}</th>
+                  <th className="text-left p-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))] hidden md:table-cell">{t.modules.superstarBaseballBestPitchTypes.tableHeaders.difficulty}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.superstarBaseballBestPitchTypes.pitchRows.map((row: any, index: number) => (
+                  <tr key={index} className={`border-b border-border hover:bg-white/5 transition-colors ${index % 2 === 0 ? 'bg-white/[0.01]' : ''}`}>
+                    <td className="p-4 font-bold text-sm text-[hsl(var(--nav-theme-light))]">{row.pitch}</td>
+                    <td className="p-4">
+                      <kbd className="px-2 py-1 rounded bg-white/10 border border-border text-xs font-mono font-semibold">{row.speedRange}</kbd>
+                    </td>
+                    <td className="p-4 text-sm text-muted-foreground hidden sm:table-cell">{row.movement}</td>
+                    <td className="p-4 text-sm text-muted-foreground">{row.bestFor}</td>
+                    <td className="p-4 hidden md:table-cell">
+                      <span className={`text-xs px-2 py-1 rounded-full border ${
+                        row.difficulty === 'Low'
+                          ? 'bg-green-500/10 border-green-500/30 text-green-400'
+                          : 'bg-amber-500/10 border-amber-500/30 text-amber-400'
+                      }`}>{row.difficulty}</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Pitch Selection Tips */}
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Activity className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-lg">{t.modules.superstarBaseballBestPitchTypes.notesTitle}</h3>
+            </div>
+            <ul className="space-y-3">
+              {t.modules.superstarBaseballBestPitchTypes.notes.map((note: string, index: number) => (
+                <li key={index} className="flex items-start gap-3">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                  <span className="text-sm text-muted-foreground">{note}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Superstar Baseball How to Get More Spins */}
+      <section id="how-to-get-more-spins" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Gift className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballHowToGetMoreSpins.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballHowToGetMoreSpins']} locale={locale}>
+                {t.modules.superstarBaseballHowToGetMoreSpins.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballHowToGetMoreSpins.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballHowToGetMoreSpins.intro}
+            </p>
+          </div>
+
+          {/* Checklist Items */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.superstarBaseballHowToGetMoreSpins.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center mt-0.5">
+                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-base leading-snug">{item.label}</h3>
+                </div>
+                <p className="text-sm text-muted-foreground pl-11">{item.detail}</p>
               </div>
             ))}
           </div>
