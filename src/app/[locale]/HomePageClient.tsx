@@ -1,23 +1,28 @@
 'use client'
 
-import { useEffect, Suspense, lazy } from 'react'
+import { useEffect, useState, Suspense, lazy } from 'react'
 import {
   Activity,
   ArrowRight,
   BookOpen,
   Check,
+  ChevronDown,
+  ClipboardCheck,
   Download,
   ExternalLink,
+  Gamepad2,
   Gift,
   Hand,
   Keyboard,
   RotateCcw,
   Sparkles,
   Shield,
+  Star,
   Swords,
   Target,
   TrendingUp,
   Trophy,
+  Users,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -64,6 +69,57 @@ function LinkedTitle({
     )
   }
   return <>{children}</>
+}
+
+// Match Guide Accordion sub-component (needs its own state)
+function MatchGuideSection({ t, moduleLinkMap, locale }: { t: any; moduleLinkMap: ModuleLinkMap; locale: string }) {
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
+
+  return (
+    <section id="match-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+      <div className="container mx-auto max-w-5xl">
+        <div className="text-center mb-12 scroll-reveal">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+            <Gamepad2 className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+            {t.modules.superstarBaseball7v7MatchGuide.eyebrow}
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <LinkedTitle linkData={moduleLinkMap['superstarBaseball7v7MatchGuide']} locale={locale}>
+              {t.modules.superstarBaseball7v7MatchGuide.title}
+            </LinkedTitle>
+          </h2>
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            {t.modules.superstarBaseball7v7MatchGuide.subtitle}
+          </p>
+          <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+            {t.modules.superstarBaseball7v7MatchGuide.intro}
+          </p>
+        </div>
+
+        {/* Accordion Items */}
+        <div className="scroll-reveal space-y-3">
+          {t.modules.superstarBaseball7v7MatchGuide.items.map((item: any, index: number) => (
+            <div key={index} className="border border-border rounded-xl overflow-hidden hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+              <button
+                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                className="w-full flex items-center justify-between p-5 text-left bg-white/5 hover:bg-white/10 transition-colors"
+              >
+                <span className="font-semibold text-base pr-4">{item.question}</span>
+                <ChevronDown
+                  className={`flex-shrink-0 w-5 h-5 text-[hsl(var(--nav-theme-light))] transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
+                />
+              </button>
+              {openIndex === index && (
+                <div className="px-5 pb-5 pt-2 bg-[hsl(var(--nav-theme)/0.03)] border-t border-border">
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
 }
 
 interface HomePageClientProps {
@@ -275,7 +331,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionIds = [
                 'superstar-baseball-codes', 'beginner-guide', 'controls', 'batting-guide',
                 'pitching-guide', 'spins-guide', 'offensive-styles', 'defensive-styles',
-                'how-to-hit-home-runs', 'fielding-guide', 'best-pitch-types', 'how-to-get-more-spins'
+                'how-to-hit-home-runs', 'fielding-guide', 'best-pitch-types', 'how-to-get-more-spins',
+                'coins-guide', 'roles-guide', 'match-guide', 'solo-queue-tips'
               ]
               const sectionId = sectionIds[index]
 
@@ -916,6 +973,136 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                   <h3 className="font-bold text-base leading-snug">{item.label}</h3>
                 </div>
                 <p className="text-sm text-muted-foreground pl-11">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Superstar Baseball Coins Guide */}
+      <section id="coins-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Star className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballCoinsGuide.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballCoinsGuide']} locale={locale}>
+                {t.modules.superstarBaseballCoinsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballCoinsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballCoinsGuide.intro}
+            </p>
+          </div>
+
+          {/* Coins Guide Cards */}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {t.modules.superstarBaseballCoinsGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                    <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-base">{item.title}</h3>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((hl: string, hi: number) => (
+                    <li key={hi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                      <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      {hl}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Superstar Baseball Roles Guide */}
+      <section id="roles-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Users className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballRolesGuide.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballRolesGuide']} locale={locale}>
+                {t.modules.superstarBaseballRolesGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballRolesGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballRolesGuide.intro}
+            </p>
+          </div>
+
+          {/* Roles Cards */}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {t.modules.superstarBaseballRolesGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                    <Users className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-base">{item.title}</h3>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((hl: string, hi: number) => (
+                    <li key={hi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                      <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      {hl}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Superstar Baseball 7v7 Match Guide */}
+      <MatchGuideSection t={t} moduleLinkMap={moduleLinkMap} locale={locale} />
+
+      {/* Module 16: Superstar Baseball Solo Queue Tips */}
+      <section id="solo-queue-tips" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <ClipboardCheck className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+              {t.modules.superstarBaseballSoloQueueTips.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['superstarBaseballSoloQueueTips']} locale={locale}>
+                {t.modules.superstarBaseballSoloQueueTips.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.superstarBaseballSoloQueueTips.subtitle}
+            </p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto mt-3">
+              {t.modules.superstarBaseballSoloQueueTips.intro}
+            </p>
+          </div>
+
+          {/* Solo Queue Checklist */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.superstarBaseballSoloQueueTips.items.map((item: any, index: number) => (
+              <div key={index} className="flex items-start gap-3 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all duration-300">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center mt-0.5">
+                  <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">{item.label}</p>
               </div>
             ))}
           </div>

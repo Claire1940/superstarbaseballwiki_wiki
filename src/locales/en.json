@@ -118,6 +118,26 @@
         "icon": "Gift",
         "title": "Superstar Baseball How to Get More Spins",
         "description": "Codes, free spin timer, match rewards, and milestone methods"
+      },
+      {
+        "icon": "Star",
+        "title": "Superstar Baseball Coins Guide",
+        "description": "Earn and spend Coins effectively for early progression"
+      },
+      {
+        "icon": "Users",
+        "title": "Superstar Baseball Roles Guide",
+        "description": "Batter, Pitcher, and Fielder roles explained"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Superstar Baseball 7v7 Match Guide",
+        "description": "Match flow, teamwork, and winning basics in 7v7"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Superstar Baseball Solo Queue Tips",
+        "description": "Solo habits and public lobby strategies to contribute"
       }
     ]
   },
@@ -667,6 +687,163 @@
           "label": "Spend Lucky Spins More Carefully Than Regular Spins",
           "detail": "Lucky Spins have better odds for rarer pulls. Save them for moments when you actually want stronger roster upgrades instead of spending them immediately on any available spin."
         }
+      ]
+    },
+    "superstarBaseballCoinsGuide": {
+      "eyebrow": "Currency Guide",
+      "title": "Superstar Baseball Coins Guide",
+      "subtitle": "Coins are part of the game's early growth loop alongside Spins and Lucky Spins. The fastest start comes from redeeming codes, playing matches, and avoiding low-impact spending.",
+      "intro": "In Superstar Baseball, Coins sit next to the Spins system as one of the core progression resources. Start by claiming code rewards, build a small reserve through matches, then spend on practical upgrades before chasing extras.",
+      "items": [
+        {
+          "title": "What Coins Are For",
+          "description": "Coins are the main currency for upgrades, making them part of your baseline progression rather than a cosmetic-only resource.",
+          "highlights": [
+            "Main currency for upgrades",
+            "Works alongside Spins and Lucky Spins",
+            "Useful for early account progression"
+          ]
+        },
+        {
+          "title": "Fastest Ways To Get Coins",
+          "description": "The most reliable early sources are reward codes, regular match play, and milestone progress.",
+          "highlights": [
+            "Redeem active codes first",
+            "Play matches consistently",
+            "Complete milestones and objectives"
+          ]
+        },
+        {
+          "title": "Best Early Spending Priority",
+          "description": "Use Coins on upgrades that improve win rate first, while delaying lower-impact purchases until your core gameplay feels stable.",
+          "highlights": [
+            "Prioritize gameplay-impact upgrades",
+            "Keep a reserve instead of spending instantly",
+            "Delay non-essential purchases early"
+          ]
+        },
+        {
+          "title": "Code Reward Snapshot",
+          "description": "Coins appear in the reward pool through code drops such as SUPERSTAR, alongside the more common Spin rewards.",
+          "highlights": [
+            "SUPERSTAR gives 100 Coins",
+            "Most codes focus on Spins",
+            "Coins are a useful bonus alongside Spins"
+          ]
+        },
+        {
+          "title": "Simple Coin Routine",
+          "description": "Redeem all working codes, play enough matches to keep progression moving, and only spend once you know which upgrades help your role most.",
+          "highlights": [
+            "Redeem codes before queuing",
+            "Build a coin reserve through matches",
+            "Spend after you know your preferred role"
+          ]
+        }
+      ]
+    },
+    "superstarBaseballRolesGuide": {
+      "eyebrow": "Core Roles",
+      "title": "Superstar Baseball Roles Guide",
+      "subtitle": "Superstar Baseball revolves around three playable roles during matches. Learning the responsibility of each role makes every guide on hitting, pitching, and team play easier to understand.",
+      "intro": "Before diving into advanced mechanics, it helps to see the match through its three core roles. A batter creates runs, a pitcher disrupts contact, and a fielder converts batted balls into outs.",
+      "items": [
+        {
+          "title": "Batter",
+          "description": "The batter's job is to make contact, clear the infield, and convert chances into runs.",
+          "highlights": [
+            "Primary scoring role",
+            "Needs timing and plate discipline",
+            "Benefits from strong contact and lineup placement"
+          ]
+        },
+        {
+          "title": "Pitcher",
+          "description": "The pitcher controls the pace of each at-bat by mixing speeds, changing location, and forcing bad swings or weak contact.",
+          "highlights": [
+            "Disrupts batter timing",
+            "Uses pitch variety to stay unpredictable",
+            "Wins through sequence and placement"
+          ]
+        },
+        {
+          "title": "Fielder",
+          "description": "The fielder turns defense into outs by catching the ball cleanly and making accurate throws to the right base.",
+          "highlights": [
+            "Covers space and reacts quickly",
+            "Needs good positioning and throw accuracy",
+            "Can swing momentum through clean assists"
+          ]
+        },
+        {
+          "title": "Pitch Types Used By Pitchers",
+          "description": "Four basic pitch families set the rhythm of pitching decisions in Superstar Baseball.",
+          "highlights": [
+            "Curveball: downward or sideways movement",
+            "Sinker: drop-focused pitch for grounders",
+            "Slider: sharper lateral or downward break",
+            "Fastball: straight speed pressure"
+          ]
+        },
+        {
+          "title": "Which Role Is Best For New Players",
+          "description": "Many beginners in Superstar Baseball improve quickly by focusing on one role at a time instead of trying to master everything in a single session.",
+          "highlights": [
+            "Batter for timing practice",
+            "Pitcher for control and mind games",
+            "Fielder for teamwork and defensive reads"
+          ]
+        }
+      ]
+    },
+    "superstarBaseball7v7MatchGuide": {
+      "eyebrow": "Match Basics",
+      "title": "Superstar Baseball 7v7 Match Guide",
+      "subtitle": "Superstar Baseball is built around quick 7v7 arcade baseball matches on Roblox. Understanding the overall flow helps players make sense of team roles, pacing, and why communication matters.",
+      "intro": "Once you see the match as a rotating loop of batting, pitching, and field support, the game becomes much easier to read.",
+      "items": [
+        {
+          "question": "What Is The Core Match Format?",
+          "answer": "Superstar Baseball is a 7v7 arcade baseball game on Roblox. Matches place players into teams where batting, pitching, and fielding all rotate into the overall session flow."
+        },
+        {
+          "question": "What Do You Actually Do During A Match?",
+          "answer": "You take part in the baseball loop from different angles: batting to create runs, pitching to deny strong contact, and fielding to secure outs and stop extra bases."
+        },
+        {
+          "question": "Why Does 7v7 Change The Experience?",
+          "answer": "Because there are multiple human players on each side, teamwork matters more than in a solo sports game. Clean defense, smart throws, and dependable role execution help as much as standout individual plays."
+        },
+        {
+          "question": "What Helps New Players Win More Quickly?",
+          "answer": "New players benefit from learning the strike zone, mixing pitches instead of repeating one option, and making simple defensive decisions rather than forcing highlight plays."
+        },
+        {
+          "question": "Does Team Coordination Matter In Superstar Baseball?",
+          "answer": "Yes. Solo queue is fully playable, but coordinated groups tend to control the field better and convert more wins, especially on defense."
+        },
+        {
+          "question": "What Is A Good First Match Goal?",
+          "answer": "A strong early goal is to avoid throwing away possessions: take cleaner swings, throw accurate balls as a fielder, and keep your pitching unpredictable instead of trying to dominate every play."
+        }
+      ]
+    },
+    "superstarBaseballSoloQueueTips": {
+      "eyebrow": "Solo Play",
+      "title": "Superstar Baseball Solo Queue Tips",
+      "subtitle": "Solo queue is fully playable in Superstar Baseball, but public lobbies reward simple decisions and consistency. The best solo habits help you stay useful even when the team around you is uneven.",
+      "intro": "Not every player queues with friends, and Superstar Baseball supports that. Solo players get the most value by focusing on repeatable habits: cleaner timing, safer defense, smarter pitch variety, and less wasted risk.",
+      "items": [
+        { "label": "Redeem active codes before you queue so you start with extra Spins and Coins." },
+        { "label": "Play your role cleanly instead of trying to force every highlight moment." },
+        { "label": "As a pitcher, avoid repeating the same pitch over and over." },
+        { "label": "Aim for pitch location and corners instead of only chasing speed." },
+        { "label": "As a batter, wait for the ball to enter the zone before swinging." },
+        { "label": "If your contact turns into weak grounders often, adjust timing before changing everything else." },
+        { "label": "As a fielder, prioritize secure catches and accurate throws." },
+        { "label": "Build around the strongest character or style you have already pulled." },
+        { "label": "Save Lucky Spins for moments when you actually want better odds on a stronger pull." },
+        { "label": "Treat public matches as pattern-reading practice and watch how opponents pitch or swing under pressure." }
       ]
     }
   },
